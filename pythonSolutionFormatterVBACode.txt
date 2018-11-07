@@ -1,0 +1,51 @@
+Sub SeparateFormattedSolutionrings()
+    Dim fullValue As String, name As String, campArea As String, campAreas As String, section As String, groupName As String
+    Dim r As Integer, i As Integer, x As Integer
+    Dim nameArray() As String, campAreaArray() As String
+    groupName = ""
+    r = 2
+    x = 3
+    Sheets("PythonSolution").Activate
+   
+   
+   
+   
+    Do Until IsEmpty(Cells(r, 2))
+       
+        section = Cells(r, 1).Value
+        fullValue = Cells(r, 4).Value
+        fullValue = Left(Right(fullValue, Len(fullValue) - 1), Len(fullValue) - 2)
+   
+        campAreas = Cells(r, 2).Value
+       
+        campAreas = Left(Right(campAreas, Len(campAreas) - 1), Len(campAreas) - 2)
+        campAreaArray = Split(campAreas, "|")
+        nameArray = Split(fullValue, "|")
+       
+        Sheets("FormattedSolution").Activate
+       
+        For i = 0 To UBound(nameArray)
+   
+            name = nameArray(i)
+            name = Left(Right(name, Len(name) - 1), Len(name) - 2)
+           
+            campArea = campAreaArray(i)
+           
+           
+                    
+                     
+            Cells(x, 2).Value = name
+            Cells(x, 4).Value = campArea
+            Cells(x, 7).Value = section
+            Cells(x, 8).Value = i + 1
+            Cells(x, 9).Value = section & (i + 1)
+            x = x + 1
+
+        Next i
+        r = r + 1
+        Sheets("PythonSolution").Activate
+    Loop
+   
+    Sheets("FormattedSolution").Activate
+
+End Sub
