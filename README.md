@@ -1,14 +1,14 @@
 # Subset-Sum-Solver
 
 
-##Problem Description
+## Problem Description
 
 I was given this problem by Electric Forest. The objective was to sort the camping groups into different sections so that there is minimal overflow into the center firelane. Each group can be placed in any section but not split up.
 
 This is a variation of the subset sum problem which is a common coding interview problem at Google and Amazon.
 
 
-##Algorithium Description
+## Algorithium Description
 
 There is no efficient solution to this problem so the sections were filled by randomly selecting groups while minimizing the area between the longest filled section shortest section.
 
@@ -27,7 +27,7 @@ The probability of finding the best solution is then
 where P is the probabily of finding the best solution after one run and n is the number of runs.
 
 
-##Additional Files
+## Additional Files
 
 Part of the original data I was given is included. The camp leader names were changed to first 2 letters of first name and last name to protect their identities.
 The camp leader name was used as the identifier for each group in the python script because some group names had unrecognizable characters.
