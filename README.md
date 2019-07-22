@@ -3,12 +3,13 @@
 
 ## Problem Description
 
+This is a variation of the subset sum problem.
+
 Camping groups for a music festival are to be sorted into different sections so there is minimal overflow to the center lane. Each group can be placed in any section but not split between sections.
 
-This is a variation of the subset sum problem which is a common coding interview problem at Google and Amazon.
+I own the rights to this code and have chosen to publish it as open source.
 
-
-## Algorithium Description
+## Algorithm Description
 
 There is no efficient solution to this problem so sections were filled by randomly selecting groups. 
 
