@@ -1,25 +1,26 @@
 import random
 import json
 
+global inputData
 with open('InputData.json', 'r') as f:
-  data = json.load(f)
+  inputData = json.load(f)
 class CampSorter:
 
     def __init__(self, maxAttempts = 10000, increment = 5, boundsDifStart = 0, trysPerSection = 25):
-        self.pieces = data["pieces"]
+        campdata = list(inputData['CampSectionData'].values())
         self.maxAttempts = maxAttempts
         self.increment = increment
         self.boundsDifStart = boundsDifStart
         self.trysPerSection = trysPerSection
 
+        self.pieces = list(inputData["camps"].values())
         self.campSizeKeys = self.pieces[:]
-        self.campLeaders = ["AlBe","RaEd","HeJo","NeMe","KeLe","FeHa","JeEl","TiKr","CaGo","DeLi","CoPr","JoPo","KeC","KeBu","SAMC","AlCh","GrMa","KaGr","MeKa","JePe","BrSc","AdDi","AlSe","ChDo","JoJo","AnMa","DuDi","AaJo","BrMe","CaCo","BrCa","JeTr","MeSp","CaMa","JeAl","MiBe","LiBe","AnKi","KhSi","MaKi","LyJo","SaN","AyEr","MeHe","NaBl","PaSc","JaLe","MiDo","RyPi","SaBu","DoKo","MiRa","YoLo","DeHo","DeGu","GiGa","IaMu","MaWr","BrMe","MiAn","NaLe","ScKe","AlPe","KaRa","LeSc","NiSl","shda","BrBi","CaCa","JoCa","LaEl","MaMa","NoSi","AlAl","DeKi","ElSa","JoSe","SaUr","ScVa","ChHi","DaMc","JaHa","JoAr","PaSt","AaSc","LaNg","TySe","AaBu","JeNo","KaWi","MaHa","MiLi","PaHo","SeTh","ShSe","StNi","AlSy","ChFa","ChCh","HaSt","HeSn","JePa","LiNg","NiSt","RiCo","AmCa","AnMi","BrCl","CaWa","ReAr","StCs","TyKa","CoTa","PhRo","SeRe","CoLy","DaEd","JoBe","KaRi","OmVe","SaMe","StWe","StSp","AlSt","JaKo","kali","LiMi","PaMi","ZaCr","AnWe","AuRe","BeRo","ChLa","CoCh","DuCr","KeSm","RyBl","thle","TiBe","VeWa","MiMa","ChNg","BrTh"]
-
-        self.sections = [22790,18550,18550,18550,18550,18550,18550,18550,18550,15890,16030,18690,18690,18690,18690,18690,16020,23630,19460,19460,19460,19460,19460,19460,19460,19460,19460,19460,19460,19460,19460,19460,19460,16680]
+        self.campLeaders =  list(inputData["camps"].keys())
+        self.sections = [d['size'] for d in campdata]
 
         self.sectionKeys = self.sections[:]
-        self.sectionNames = ['A1','A2','A3','A4','A5','A6','B1','B2','B3','B4','B5','B6','B7','B8','B9','B10','B11','B12','B13','B14','B15','B16','B17','B18','B19','B20','B21','B22','B23','B24','B25','B26','B27','B28', "B29", "B30"]
-        self.sectionWidths = [70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,60,85,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,60]
+        self.sectionNames = list(inputData["CampSectionData"].keys())
+        self.sectionWidths =  [d['width'] for d in campdata]
 
         self.sectionSolutions = [[] for _ in range(len(self.sections))]
         self.campLeaderSolutions = [[] for _ in range(len(self.sections))]

@@ -1,971 +1,595 @@
 {
-  "camps": [
-    {"FACEMELT FAM":151},
-    {"The Wook Cartel":128},
-    {"Electric Sofa":121},
-    {"Yeet Street":113},
-    {"Team Turnip":108},
-    {"Ghosts of Serotonin's Past":105},
-    {"EternalVibeTribe":103},
-    {"Children of the Wild: 2020":99},
-    {"Boofus Du Roll":98},
-    {"K Is For Horses":95},
-    {"Flamin' Hots":95},
-    {"High Voltage":90},
-    {"Camp Lan Party":87},
-    {"Wook Wars 6: Return of the Crackheads":75},
-    {"Rave Little Toasters":74},
-    {"F@#$ You I'm A WIZARD":74},
-    {"Urban Animals 2.0":73},
-    {"Dude, Where's My Cat?":71},
-    {"Marvelous Misfits":69},
-    {"Kula -No Chill":68},
-    {"Hog Farm":66},
-    {"Wooktopia":66},
-    {"Club Soda":64},
-    {"Gangsta's Paradise":63},
-    {"JChillin Love Company":62},
-    {"CAMP TRASH PANDA":61},
-    {"0Ft Away":60},
-    {"Shotlantis":60},
-    {"Blue Noodle Funktopus":59},
-    {"Corey's Belly Slappers":59},
-    {"Christina4President":59},
-    {"Camp Sup Sau":59},
-    {"The Nest":57},
-    {"Camp Oompa Loompa":57},
-    {"Team A":57},
-    {"Tab Lab":57},
-    {"Camp Magic Conch":56},
-    {"Shroompa Loompas":56},
-    {"Bed Times Lines":56},
-    {"cabbage pash kids":56},
-    {"Backwoods Barracks":55},
-    {"K for Koala":55},
-    {"Where the duck is Kevin":55},
-    {"The Boofalonians":53},
-    {"Spunion Patch Kids":53},
-    {"SPECTRUM CA":53},
-    {"The Wubby Ducklings":52},
-    {"CAMP GUACAMOLLY OG":51},
-    {"Basstronauts":51},
-    {"WOOKANDA FOREVAH":51},
-    {"Products of D.A.R.E.":51},
-    {"Camp Kazoo":50},
-    {"Camp Bass &amp;amp; Tiddies":49},
-    {"GGPCC (Giant Galactic Pizza Cat Camp!)":49},
-    {"Marissa Traynor":48},
-    {"Equestrian Wiggle Sauce":48},
-    {"Cabbage Corp.":48},
-    {"slippery saucy sloots":48},
-    {"Lunchbox Fam":48},
-    {"Parkway Tropics":47},
-    {"Camp Litty-Titty":47},
-    {"Emmanuela Jannaro":47},
-    {"SQUAAA":47},
-    {"Camp Pandamonium":46},
-    {"Au Jus Vending Machine":46},
-    {"Electric Boogaloo":46},
-    {"COUNCIL OF RICKS":46},
-    {"Cool Socks":45},
-    {"Fam.ILY":45},
-    {"Chain Gang":45},
-    {"Camp Hype Train":45},
-    {"Fort Rage Rave Fam":45},
-    {"Central Boofing District":44},
-    {"Duck It All":44},
-    {"Black Eyed P’s":44},
-    {"Deems Kingdom":43},
-    {"Kamp Slower Horses":43},
-    {"🐣 Camp Minty Bits 🐣":42},
-    {"6 Wooks 1 Tent":42},
-    {"Bippity Boppity Boof":42},
-    {"Epstein Didn't Boof Himself":42},
-    {"Flamigos":41},
-    {"Camp Cuddle Puddle":41},
-    {"Camp Koto":40},
-    {"CAMP JEFF":40},
-    {"Camp No Training Wheelz":40},
-    {"Electric Hawk":40},
-    {"Dumpster Fire - Goin Honkin":39},
-    {"Lui-Gigi's Mansion":38},
-    {"Celine Dion Horse Tranqs":38},
-    {"Victor Carrizalez":38},
-    {"Boofin Bambis":37},
-    {"Just Boof It":37},
-    {"E4 Avenue":37},
-    {"Flared BassCamp":36},
-    {"Salty Spitoon":36},
-    {"BASS PIRATES":36},
-    {"FAITH TRUST AND PIXIE DUST":35},
-    {"CAMP ELECTRIP":35},
-    {"Sisterhood of the Traveling Spoon":35},
-    {"ODC":35},
-    {"KAMP KAZOOTED":35},
-    {"The Leaflings":35},
-    {"#CampJäger2020":35},
-    {"Camp Tittysprinkles":34},
-    {"Charles Heimes":34},
-    {"Ian Muschler":34},
-    {"Nathen Lane":34},
-    {"Lost my chanclas":34},
-    {"RAT JAZZ":33},
-    {"Liquid Space Dragons":33},
-    {"YEET! Fam":33},
-    {"Jeffrey Little":32},
-    {"Camp Schwifty 2020!":32},
-    {"One Big Rave Fam":32},
-    {"Spunion Farms":32},
-    {"•[EnimateK]•":32},
-    {"Wholesome whippets and whiteclaws":32},
-    {"The Dancing Lobsters":31},
-    {"Boof Troop":31},
-    {"Katie Widmar":31},
-    {"Big Daddy Purp and the Twerps":31},
-    {"TWEAKERS PEAK":31},
-    {"bEATS and bASS":31},
-    {"Rainbow Squiiis":31},
-    {"Area 51":31},
-    {"Where's Wilson?":30},
-    {"Camp Chuck":30},
-    {"Camp Build a Wook":30},
-    {"Electric Tree Party":30},
-    {"Camp Wurder":30},
-    {"Camp Poppers":30},
-    {"Camp Weird":30},
-    {"Bears, Boo-Bees, [REDACTED]":30},
-    {"Bubble Gang":30},
-    {"Slappa Da Baggg":30},
-    {"Ohana Means Gang Gang":29},
-    {"CAMP KIND NEIGHBORS":29},
-    {"Baby Kyle":29},
-    {"Camp Boofenshmirtz":29},
-    {"Campoline":29},
-    {"Boolin With The Bois":29},
-    {"LITTY T!TTY FESTY COMMITTEE":29},
-    {"Boofy Goobers":29},
-    {"Swamp Squad":29},
-    {"Camp Forest Camp":29},
-    {"Cotton Headed Ninny Muggins":29},
-    {"Love, Peace, Taco Grease":28},
-    {"E:/forest.flac":28},
-    {"Scrambled Legs":28},
-    {"Giraffic Park":28},
-    {"Camp don't be a B!tch":28},
-    {"SquidzSquad":28},
-    {"CAMP SIDEBOOB":28},
-    {"Oprah's Wook Club":28},
-    {"Camp Ohana":28},
-    {"F*ck Dave":28},
-    {"Space Goats":28},
-    {"Camp Feel My Face":27},
-    {"Uncle Nicky’s Forest":27},
-    {"Camp Rabbit Hole":27},
-    {"Camp Ohana":27},
-    {"Kandi Land":27},
-    {"Kristina Otten":27},
-    {"Lily Iaderosa":27},
-    {"Thee Sable of...":27},
-    {"Wedding Crashers":27},
-    {"Harvard Grads":27},
-    {"Where tf is Sara Tonin?":26},
-    {"Lena Thomas":26},
-    {"Freaks and Geeks":26},
-    {"raveaholics anonymous":26},
-    {"Campstopwontstop":26},
-    {"Get Weird":26},
-    {"We Lick Rocks":25},
-    {"SubBooferz":25},
-    {"BOOF TROOP":25},
-    {"Wook Wonderland":25},
-    {"Camp Chubbn":25},
-    {"Todds Marbles":25},
-    {"Bob Squad!":25},
-    {"The Slap Masters":25},
-    {"BIG OL' RAVE SHRIMPS COLORADO":25},
-    {"Camp PLURwood":25},
-    {"Camp Year-Round!":24},
-    {"Great Day for K":24},
-    {"K-Hole Family":24},
-    {"Ryan Cain":24},
-    {"Camp WWJB":24},
-    {"Alex Holkon":23},
-    {"Milwonkians and friends":23},
-    {"Big Spungus":23},
-    {"Wubba Lubba Dub Scouts":23},
-    {"Camp Power Up":23},
-    {"Kamp Horsey":23},
-    {"Mom's Spagetamine":23},
-    {"May the Forest Be With You":23},
-    {"The Pasties Platoon":23},
-    {"House Headass and Friends":22},
-    {"Under the Moon":22},
-    {"Group Groundscore":22},
-    {"CAMP BLIPS AND CHITZ":22},
-    {"CAMP FROG GNAW":22},
-    {"The Crustacean Station":22},
-    {"Camp Hell Yeah":22},
-    {"Council LLC":22},
-    {"puffy nuts":22},
-    {"Camp Underdog":22},
-    {"CAMP MOST MOIST":22},
-    {"Sara Mehle":22},
-    {"Freak candy 🍭🍬":22},
-    {"stephanie lombard":22},
-    {"People of the Dome":21},
-    {"Forest Birds":21},
-    {"Struggle Bus":21},
-    {"Gerald's Degenerates":21},
-    {"PIZZA PLANET":21},
-    {"Kevin Quillen":21},
-    {"Return Jose Here":21},
-    {"Max Ellison":21},
-    {"Same as Last Year":21},
-    {"Robert Ferruggia":21},
-    {"We Love Raving!":20},
-    {"Spicy Time Fam":20},
-    {"Charles Falsetti":20},
-    {"Give Ilhan Omar a Gundam":20},
-    {"Craig Storie":20},
-    {"1 Camp Supercalifragilisticexpialidocious":20},
-    {"Psychedelic Strangers":20},
-    {"Camper? I Hardly Know ‘er!":20},
-    {"Camp Stop Wont Stop Part Deux":20},
-    {"Nick taylors group":20},
-    {"Camp Who are you? Meow":20},
-    {"BOOF BARN":20},
-    {"Morgan Freeman's freckles":20},
-    {"Camp 86Wh0a":20},
-    {"EXTRA GRAVY":19},
-    {"Jasmine Townsend":19},
-    {"SpAcE CaMp":19},
-    {"Blob the Forest 2020":19},
-    {"Thammy n Hiz Buddiez":19},
-    {"Sarah Bazemore":19},
-    {"Electric Lettuce":19},
-    {"CAMP HOUSE PLANT":18},
-    {"The Hug House":18},
-    {"TEAM BLAST OFF":18},
-    {"Qave and Qompany":18},
-    {"Samuel Stemler":18},
-    {"Shady":18},
-    {"Camp Zipties and Tito's":18},
-    {"Get Down":17},
-    {"James Hey":17},
-    {"CRACK'R'US":17},
-    {"THE ARMADILLTOES":17},
-    {"Send Noods":17},
-    {"Camp Watermalone":17},
-    {"ATL Hoes and Friends":16},
-    {"Have you seen my dad?":16},
-    {"glenn sanchez":16},
-    {"Chungus Amongus":15},
-    {"Badgerland":15},
-    {"Harlan Kane":15},
-    {"camp riggity wrecked":15},
-    {"Buncha Wooks":15},
-    {"Freestyle Groove Gang":15},
-    {"The dub club":14},
-    {"INTENTS WUBS":14},
-    {"Mt. Ketaminjaro":13},
-    {"Duck Squad":11},
-    {"Boofs and Cats":10}
-  ]
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  ]
+  "CampSectionData": {
+    "A1": {
+      "size": 26110,
+      "width": 70
+    },
+    "A2": {
+      "size": 26110,
+      "width": 70
+    },
+    "A3": {
+      "size": 26110,
+      "width": 70
+    },
+    "A4": {
+      "size": 26110,
+      "width": 70
+    },
+    "A5": {
+      "size": 26110,
+      "width": 70
+    },
+    "A6": {
+      "size": 26110,
+      "width": 70
+    },
+    "B1": {
+      "size": 20440,
+      "width": 70
+    },
+    "B2": {
+      "size": 20440,
+      "width": 70
+    },
+    "B3": {
+      "size": 20440,
+      "width": 70
+    },
+    "B4": {
+      "size": 20440,
+      "width": 70
+    },
+    "B5": {
+      "size": 20440,
+      "width": 70
+    },
+    "B6": {
+      "size": 20440,
+      "width": 70
+    },
+    "B7": {
+      "size": 20440,
+      "width": 70
+    },
+    "B8": {
+      "size": 20440,
+      "width": 70
+    },
+    "B9": {
+      "size": 20440,
+      "width": 70
+    },
+    "B10": {
+      "size": 20440,
+      "width": 70
+    },
+    "B11": {
+      "size": 20440,
+      "width": 70
+    },
+    "B12": {
+      "size": 20440,
+      "width": 70
+    },
+    "B13": {
+      "size": 20440,
+      "width": 70
+    },
+    "B14": {
+      "size": 20440,
+      "width": 70
+    },
+    "B15": {
+      "size": 20440,
+      "width": 70
+    },
+    "B16": {
+      "size": 20440,
+      "width": 70
+    },
+    "B17": {
+      "size": 20440,
+      "width": 70
+    },
+    "B18": {
+      "size": 20440,
+      "width": 70
+    },
+    "B19": {
+      "size": 20440,
+      "width": 70
+    },
+    "B20": {
+      "size": 20440,
+      "width": 70
+    },
+    "B21": {
+      "size": 20440,
+      "width": 70
+    },
+    "B22": {
+      "size": 20440,
+      "width": 70
+    },
+    "B23": {
+      "size": 20440,
+      "width": 70
+    },
+    "B24": {
+      "size": 20440,
+      "width": 70
+    },
+    "B25": {
+      "size": 20440,
+      "width": 70
+    },
+    "B26": {
+      "size": 20440,
+      "width": 70
+    },
+    "B27": {
+      "size": 20440,
+      "width": 70
+    },
+    "B28": {
+      "size": 20440,
+      "width": 70
+    },
+    "B29": {
+      "size": 20440,
+      "width": 70
+    },
+    "B30": {
+      "size": 20440,
+      "width": 70
+    },
+    "B31": {
+      "size": 20440,
+      "width": 70
+    },
+    "B32": {
+      "size": 20440,
+      "width": 70
+    },
+    "C1": {
+      "size": 14700,
+      "width": 70
+    },
+    "C2": {
+      "size": 14700,
+      "width": 70
+    },
+    "C3": {
+      "size": 14700,
+      "width": 70
+    },
+    "C4": {
+      "size": 14700,
+      "width": 70
+    },
+    "C5": {
+      "size": 14700,
+      "width": 70
+    },
+    "C6": {
+      "size": 14700,
+      "width": 70
+    },
+    "C7": {
+      "size": 14700,
+      "width": 70
+    },
+    "C8": {
+      "size": 14700,
+      "width": 70
+    },
+    "C9": {
+      "size": 14700,
+      "width": 70
+    },
+    "C10": {
+      "size": 14700,
+      "width": 70
+    },
+    "C11": {
+      "size": 14700,
+      "width": 70
+    },
+    "C12": {
+      "size": 14700,
+      "width": 70
+    },
+    "C13": {
+      "size": 14700,
+      "width": 70
+    },
+    "C14": {
+      "size": 14700,
+      "width": 70
+    },
+    "C15": {
+      "size": 14700,
+      "width": 70
+    },
+    "C16": {
+      "size": 14700,
+      "width": 70
+    },
+    "C17": {
+      "size": 14700,
+      "width": 70
+    },
+    "C18": {
+      "size": 14700,
+      "width": 70
+    },
+    "C19": {
+      "size": 14700,
+      "width": 70
+    },
+    "C20": {
+      "size": 14700,
+      "width": 70
+    },
+    "C21": {
+      "size": 14700,
+      "width": 70
+    },
+    "C22": {
+      "size": 14700,
+      "width": 70
+    },
+    "C23": {
+      "size": 14700,
+      "width": 70
+    },
+    "C24": {
+      "size": 14700,
+      "width": 70
+    },
+    "C25": {
+      "size": 14700,
+      "width": 70
+    },
+    "C26": {
+      "size": 14700,
+      "width": 70
+    },
+    "C27": {
+      "size": 14700,
+      "width": 70
+    },
+    "C28": {
+      "size": 14700,
+      "width": 70
+    },
+    "C29": {
+      "size": 14700,
+      "width": 70
+    },
+    "C30": {
+      "size": 14700,
+      "width": 70
+    },
+    "C31": {
+      "size": 14700,
+      "width": 70
+    },
+    "C32": {
+      "size": 14700,
+      "width": 70
+    },
+    "D1": {
+      "size": 10500,
+      "width": 70
+    },
+    "D2": {
+      "size": 10500,
+      "width": 70
+    },
+    "D3": {
+      "size": 10500,
+      "width": 70
+    },
+    "D4": {
+      "size": 10500,
+      "width": 70
+    },
+    "D5": {
+      "size": 10500,
+      "width": 70
+    },
+    "D6": {
+      "size": 10500,
+      "width": 70
+    },
+    "D7": {
+      "size": 10500,
+      "width": 70
+    },
+    "D8": {
+      "size": 10500,
+      "width": 70
+    },
+    "D9": {
+      "size": 10500,
+      "width": 70
+    },
+    "D10": {
+      "size": 10500,
+      "width": 70
+    }
+  },
+  "camps": {
+    "FACEMELT FAM": 21152,
+    "The Wook Cartel": 17930,
+    "Electric Sofa": 16949,
+    "Yeet Street": 15829,
+    "Team Turnip": 15128,
+    "Ghosts of Serotonin's Past": 14708,
+    "EternalVibeTribe": 14428,
+    "Children of the Wild: 2020": 13867,
+    "Boofus Du Roll": 13727,
+    "K Is For Horses": 13307,
+    "Flamin' Hots": 13307,
+    "High Voltage": 12607,
+    "Camp Lan Party": 12186,
+    "Wook Wars 6: Return of the Crackheads": 10506,
+    "Rave Little Toasters": 10365,
+    "F@#$ You I'm A WIZARD": 10365,
+    "Urban Animals 2.0": 10225,
+    "Dude, Where's My Cat?": 9945,
+    "Marvelous Misfits": 9665,
+    "Kula -No Chill": 9525,
+    "Hog Farm": 9245,
+    "Wooktopia": 9245,
+    "Club Soda": 8965,
+    "Gangsta's Paradise": 8825,
+    "JChillin Love Company": 8684,
+    "CAMP TRASH PANDA": 8544,
+    "0Ft Away": 8404,
+    "Shotlantis": 8404,
+    "Blue Noodle Funktopus": 8264,
+    "Corey's Belly Slappers": 8264,
+    "Christina4President": 8264,
+    "Camp Sup Sau": 8264,
+    "The Nest": 7984,
+    "Camp Oompa Loompa": 7984,
+    "Team A": 7984,
+    "Tab Lab": 7984,
+    "Camp Magic Conch": 7844,
+    "Shroompa Loompas": 7844,
+    "Bed Times Lines": 7844,
+    "cabbage pash kids": 7844,
+    "Backwoods Barracks": 7704,
+    "K for Koala": 7704,
+    "Where the duck is Kevin": 7704,
+    "The Boofalonians": 7424,
+    "Spunion Patch Kids": 7424,
+    "SPECTRUM CA": 7424,
+    "The Wubby Ducklings": 7284,
+    "CAMP GUACAMOLLY OG": 7144,
+    "Basstronauts": 7144,
+    "WOOKANDA FOREVAH": 7144,
+    "Products of D.A.R.E.": 7144,
+    "Camp Kazoo": 7004,
+    "Camp Bass &amp;amp; Tiddies": 6863,
+    "GGPCC (Giant Galactic Pizza Cat Camp!)": 6863,
+    "Marissa Traynor": 6723,
+    "Equestrian Wiggle Sauce": 6723,
+    "Cabbage Corp.": 6723,
+    "slippery saucy sloots": 6723,
+    "Lunchbox Fam": 6723,
+    "Parkway Tropics": 6583,
+    "Camp Litty-Titty": 6583,
+    "Emmanuela Jannaro": 6583,
+    "SQUAAA": 6583,
+    "Camp Pandamonium": 6443,
+    "Au Jus Vending Machine": 6443,
+    "Electric Boogaloo": 6443,
+    "COUNCIL OF RICKS": 6443,
+    "Cool Socks": 6303,
+    "Fam.ILY": 6303,
+    "Chain Gang": 6303,
+    "Camp Hype Train": 6303,
+    "Fort Rage Rave Fam": 6303,
+    "Central Boofing District": 6163,
+    "Duck It All": 6163,
+    "Black Eyed P’s": 6163,
+    "Deems Kingdom": 6023,
+    "Kamp Slower Horses": 6023,
+    "Camp Minty Bits": 5883,
+    "6 Wooks 1 Tent": 5883,
+    "Bippity Boppity Boof": 5883,
+    "Epstein Didn't Boof Himself": 5883,
+    "Flamigos": 5743,
+    "Camp Cuddle Puddle": 5743,
+    "Camp Koto": 5603,
+    "CAMP JEFF": 5603,
+    "Camp No Training Wheelz": 5603,
+    "Electric Hawk": 5603,
+    "Dumpster Fire - Goin Honkin": 5463,
+    "Lui-Gigi's Mansion": 5323,
+    "Celine Dion Horse Tranqs": 5323,
+    "Victor Carrizalez": 5323,
+    "Boofin Bambis": 5182,
+    "Just Boof It": 5182,
+    "E4 Avenue": 5182,
+    "Flared BassCamp": 5042,
+    "Salty Spitoon": 5042,
+    "BASS PIRATES": 5042,
+    "FAITH TRUST AND PIXIE DUST": 4902,
+    "CAMP ELECTRIP": 4902,
+    "Sisterhood of the Traveling Spoon": 4902,
+    "ODC": 4902,
+    "KAMP KAZOOTED": 4902,
+    "The Leaflings": 4902,
+    "#CampJäger2020": 4902,
+    "Camp Tittysprinkles": 4762,
+    "Charles Heimes": 4762,
+    "Ian Muschler": 4762,
+    "Nathen Lane": 4762,
+    "Lost my chanclas": 4762,
+    "RAT JAZZ": 4622,
+    "Liquid Space Dragons": 4622,
+    "YEET! Fam": 4622,
+    "Jeffrey Little": 4482,
+    "Camp Schwifty 2020!": 4482,
+    "One Big Rave Fam": 4482,
+    "Spunion Farms": 4482,
+    "•[EnimateK]•": 4482,
+    "Wholesome whippets and whiteclaws": 4482,
+    "The Dancing Lobsters": 4342,
+    "Boof Troop": 4342,
+    "Katie Widmar": 4342,
+    "Big Daddy Purp and the Twerps": 4342,
+    "TWEAKERS PEAK": 4342,
+    "bEATS and bASS": 4342,
+    "Rainbow Squiiis": 4342,
+    "Area 51": 4342,
+    "Where's Wilson?": 4202,
+    "Camp Chuck": 4202,
+    "Camp Build a Wook": 4202,
+    "Electric Tree Party": 4202,
+    "Camp Wurder": 4202,
+    "Camp Poppers": 4202,
+    "Camp Weird": 4202,
+    "Bears, Boo-Bees, [REDACTED]": 4202,
+    "Bubble Gang": 4202,
+    "Slappa Da Baggg": 4202,
+    "Ohana Means Gang Gang": 4062,
+    "CAMP KIND NEIGHBORS": 4062,
+    "Baby Kyle": 4062,
+    "Camp Boofenshmirtz": 4062,
+    "Campoline": 4062,
+    "Boolin With The Bois": 4062,
+    "LITTY T!TTY FESTY COMMITTEE": 4062,
+    "Boofy Goobers": 4062,
+    "Swamp Squad": 4062,
+    "Camp Forest Camp": 4062,
+    "Cotton Headed Ninny Muggins": 4062,
+    "Love, Peace, Taco Grease": 3922,
+    "E:/forest.flac": 3922,
+    "Scrambled Legs": 3922,
+    "Giraffic Park": 3922,
+    "Camp don't be a B!tch": 3922,
+    "SquidzSquad": 3922,
+    "CAMP SIDEBOOB": 3922,
+    "Oprah's Wook Club": 3922,
+    "Camp Ohana x2": 7704,
+    "F*ck Dave": 3922,
+    "Space Goats": 3922,
+    "Camp Feel My Face": 3782,
+    "Uncle Nicky’s Forest": 3782,
+    "Camp Rabbit Hole": 3782,
+    "Kandi Land": 3782,
+    "Kristina Otten": 3782,
+    "Lily Iaderosa": 3782,
+    "Thee Sable of...": 3782,
+    "Wedding Crashers": 3782,
+    "Harvard Grads": 3782,
+    "Where tf is Sara Tonin?": 3642,
+    "Lena Thomas": 3642,
+    "Freaks and Geeks": 3642,
+    "raveaholics anonymous": 3642,
+    "Campstopwontstop": 3642,
+    "Get Weird": 3642,
+    "We Lick Rocks": 3502,
+    "SubBooferz": 3502,
+    "BOOF TROOP": 3502,
+    "Wook Wonderland": 3502,
+    "Camp Chubbn": 3502,
+    "Todds Marbles": 3502,
+    "Bob Squad!": 3502,
+    "The Slap Masters": 3502,
+    "BIG OL' RAVE SHRIMPS COLORADO": 3502,
+    "Camp PLURwood": 3502,
+    "Camp Year-Round!": 3361,
+    "Great Day for K": 3361,
+    "K-Hole Family": 3361,
+    "Ryan Cain": 3361,
+    "Camp WWJB": 3361,
+    "Alex Holkon": 3221,
+    "Milwonkians and friends": 3221,
+    "Big Spungus": 3221,
+    "Wubba Lubba Dub Scouts": 3221,
+    "Camp Power Up": 3221,
+    "Kamp Horsey": 3221,
+    "Mom's Spagetamine": 3221,
+    "May the Forest Be With You": 3221,
+    "The Pasties Platoon": 3221,
+    "House Headass and Friends": 3081,
+    "Under the Moon": 3081,
+    "Group Groundscore": 3081,
+    "CAMP BLIPS AND CHITZ": 3081,
+    "CAMP FROG GNAW": 3081,
+    "The Crustacean Station": 3081,
+    "Camp Hell Yeah": 3081,
+    "Council LLC": 3081,
+    "puffy nuts": 3081,
+    "Camp Underdog": 3081,
+    "CAMP MOST MOIST": 3081,
+    "Sara Mehle": 3081,
+    "Freak candy": 3081,
+    "stephanie lombard": 3081,
+    "People of the Dome": 2941,
+    "Forest Birds": 2941,
+    "Struggle Bus": 2941,
+    "Gerald's Degenerates": 2941,
+    "PIZZA PLANET": 2941,
+    "Kevin Quillen": 2941,
+    "Return Jose Here": 2941,
+    "Max Ellison": 2941,
+    "Same as Last Year": 2941,
+    "Robert Ferruggia": 2941,
+    "We Love Raving!": 2801,
+    "Spicy Time Fam": 2801,
+    "Charles Falsetti": 2801,
+    "Give Ilhan Omar a Gundam": 2801,
+    "Craig Storie": 2801,
+    "1 Camp Supercalifragilisticexpialidocious": 2801,
+    "Psychedelic Strangers": 2801,
+    "Camper? I Hardly Know ‘er!": 2801,
+    "Camp Stop Wont Stop Part Deux": 2801,
+    "Nick taylors group": 2801,
+    "Camp Who are you? Meow": 2801,
+    "BOOF BARN": 2801,
+    "Morgan Freeman's freckles": 2801,
+    "Camp 86Wh0a": 2801,
+    "EXTRA GRAVY": 2661,
+    "Jasmine Townsend": 2661,
+    "SpAcE CaMp": 2661,
+    "Blob the Forest 2020": 2661,
+    "Thammy n Hiz Buddiez": 2661,
+    "Sarah Bazemore": 2661,
+    "Electric Lettuce": 2661,
+    "CAMP HOUSE PLANT": 2521,
+    "The Hug House": 2521,
+    "TEAM BLAST OFF & Camp Wurder": 6723,
+    "Qave and Qompany": 2521,
+    "Samuel Stemler": 2521,
+    "Shady": 2521,
+    "Camp Zipties and Tito's": 2521,
+    "Get Down": 2381,
+    "James Hey": 2381,
+    "CRACK'R'US": 2381,
+    "THE ARMADILLTOES": 2381,
+    "Send Noods": 2381,
+    "Camp Watermalone": 2381,
+    "ATL Hoes and Friends": 2241,
+    "Have you seen my dad?": 2241,
+    "glenn sanchez": 2241,
+    "Chungus Amongus": 2101,
+    "Badgerland": 2101,
+    "Harlan Kane": 2101,
+    "camp riggity wrecked": 2101,
+    "Buncha Wooks": 2101,
+    "Freestyle Groove Gang": 2101,
+    "The dub club": 1961,
+    "INTENTS WUBS": 1961,
+    "Mt. Ketaminjaro": 1821,
+    "Duck Squad": 1540,
+    "Boofs and Cats": 1400
+  }
 }
