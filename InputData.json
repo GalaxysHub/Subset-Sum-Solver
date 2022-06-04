@@ -149,7 +149,7 @@
       "width": 70
     },
     "B32": {
-      "size": 20440,
+      "size": 17358,
       "width": 70
     },
     "C1": {
@@ -213,7 +213,7 @@
       "width": 70
     },
     "C16": {
-      "size": 14700,
+      "size": 10217,
       "width": 70
     },
     "C17": {
@@ -321,7 +321,7 @@
       "width": 70
     }
   },
-  "camps": {
+  "Camps": {
     "FACEMELT FAM": 21152,
     "The Wook Cartel": 17930,
     "Electric Sofa": 16949,

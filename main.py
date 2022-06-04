@@ -1,5 +1,7 @@
 from SubsetSumSolver import CampSorter
 
+import json
+
 numSolToGen = 10
 bestSolution = None
 bestSpread = None
@@ -10,6 +12,16 @@ inc = 5
 initBounds = 0
 trysPerSect = 50
 
+
+def writeJsonSolution(solution):
+    data = {
+        "Sections": solution.sectionsSortedNames,
+        "CampAreas": solution.sectionSolutions,
+        "Camps":solution.campsSolutions,
+        "CampLengths":solution.campLengthsSolutions,
+    }
+    with open("solution.json", "w") as outfile:
+        json.dump(data, outfile)
 
 #Generates all solutions and picks best one
 for i in range(0,numSolToGen,1):
@@ -26,3 +38,7 @@ for i in range(0,numSolToGen,1):
         print("The best spread has been updated to "+str(bestSpread))
 
 print(bestSolution.printFullSolution())
+writeJsonSolution(bestSolution)
+
+
+

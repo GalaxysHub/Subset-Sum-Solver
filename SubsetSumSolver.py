@@ -13,9 +13,9 @@ class CampSorter:
         self.boundsDifStart = boundsDifStart
         self.trysPerSection = trysPerSection
 
-        self.pieces = list(inputData["camps"].values())
+        self.pieces = list(inputData["Camps"].values())
         self.campSizeKeys = self.pieces[:]
-        self.campLeaders =  list(inputData["camps"].keys())
+        self.camps =  list(inputData["Camps"].keys())
         self.sections = [d['size'] for d in campdata]
 
         self.sectionKeys = self.sections[:]
@@ -23,7 +23,7 @@ class CampSorter:
         self.sectionWidths =  [d['width'] for d in campdata]
 
         self.sectionSolutions = [[] for _ in range(len(self.sections))]
-        self.campLeaderSolutions = [[] for _ in range(len(self.sections))]
+        self.campsSolutions = [[] for _ in range(len(self.sections))]
         self.campLengthsSolutions = []
 
         self.sectionsSortedNames = []
@@ -141,14 +141,14 @@ class CampSorter:
 
                 for j in range(len(self.campSizeKeys)):
                     if(self.campSizeKeys[j]==solution):
-                        self.campLeaderSolutions[i].append(self.campLeaders[j])
-                        del self.campLeaders[j]
+                        self.campsSolutions[i].append(self.camps[j])
+                        del self.camps[j]
                         del self.campSizeKeys[j]
-                        break;
+                        break
 
     def generateAndReturnSolution(self):
         self.getFullSolution()
-        return spread, self.pieces, self.sectionsSortedNames, self.sectionSolutions, self.dif, self.campLeaderSolutions, self.campLengthsSolutions
+        return spread, self.pieces, self.sectionsSortedNames, self.sectionSolutions, self.dif, self.campsSolutions, self.campLengthsSolutions
 
     def printFullSolution(self):
         self.getFullSolution()
@@ -159,8 +159,8 @@ class CampSorter:
         print(self.sectionSolutions)
         print("\nDifferences between summed camp area and section area: ")
         print(self.dif)
-        print("\nCamp Leaders: ")
-        print(self.campLeaderSolutions)
+        print("\nCamps: ")
+        print(self.campsSolutions)
         print("\nCamp Lengths: ")
         print(self.campLengthsSolutions)
         print("\nPieces remaining: ")
@@ -174,7 +174,7 @@ class CampSorter:
         f.write(headers+"\n")
 
         for i in range(len(self.sectionSolutions)):
-            f.write(self.sectionsSortedNames[i]+","+str(self.sectionSolutions[i]).replace(",","|")+","+str(self.dif[i])+","+str(self.campLeaderSolutions[i]).replace(",","|")+","+str(self.campLengthsSolutions[i]).replace(",","|")+"\n")
+            f.write(self.sectionsSortedNames[i]+","+str(self.sectionSolutions[i]).replace(",","|")+","+str(self.dif[i])+","+str(self.campsSolutions[i]).replace(",","|")+","+str(self.campLengthsSolutions[i]).replace(",","|")+"\n")
         f.close()
 
 
