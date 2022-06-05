@@ -1,0 +1,100 @@
+import csv, sys
+import json
+import string
+
+group_camps = 'EF 2022 - Camping Groups.csv'
+camp_section = 'EF 2022 - Camp Sections.csv'
+
+
+formatedInputData = {}
+totalArea = 0
+totalPeople = 0
+
+def getCampingData():
+    with open(camp_section, newline='') as f:
+        reader = csv.DictReader(f)
+        CampSectionData = {}
+        try:
+            for row in reader:
+                print(row)
+                global totalArea
+                totalArea = totalArea + int(row["Size Ft2"])
+                CampSectionData[row["Camp section"]] = {
+                    "size": int(row["Size Ft2"]),
+                    "width": int(row["Width"])
+                }
+            formatedInputData["CampSectionData"] = CampSectionData
+                
+
+        except csv.Error as e:
+            sys.exit('file {}, line {}: {}'.format(group_camps, reader.line_num, e))
+
+def getGroupCampsData():
+    with open(group_camps, newline='') as f:
+        reader = csv.DictReader(f)
+        Camps = {}
+        try:
+            for row in reader:
+                print(row)
+                global totalPeople
+                totalPeople = totalPeople + int(row["Size"])
+                groupName = row['Group Name']
+                printable = set(string.printable)
+                groupName = ''.join(filter(lambda x: x in printable, groupName))
+                if(groupName in Camps.keys()):
+                    #combines duplicate camp ohanas. There's a better way to do this
+                    totalPeople = totalPeople + int(row["Size"])
+                    Camps[groupName+" x2"] = Camps[groupName] + int(row['Size'])
+                    del Camps[groupName]
+                else:
+                    Camps[groupName] = int(row['Size'])
+            formatedInputData["Camps"] = Camps
+            
+
+        except csv.Error as e:
+            sys.exit('file {}, line {}: {}'.format(group_camps, reader.line_num, e))
+
+
+def calculateAreaPerCamp():
+    areaPerPerson = totalArea/totalPeople
+    for key, value in formatedInputData["Camps"].items():
+        formatedInputData["Camps"][key] = round(value * areaPerPerson,0)
+
+
+
+def specialCases():
+
+    Camps = formatedInputData["Camps"]
+    CampSectionData = formatedInputData["CampSectionData"]
+
+    #move slippery saucy sloots & Cabbage Pash Kids to B32 (ADA)
+    CampSectionData["B32"]["size"] = CampSectionData["B32"]["size"] - Camps["slippery saucy sloots"]
+    CampSectionData["B32"]["size"] = CampSectionData["B32"]["size"] - Camps["cabbage pash kids"]
+    del Camps["slippery saucy sloots"]
+    del Camps["cabbage pash kids"]
+
+    #move M3ga St3llar Ali3ns and Camp Schwifty 2020! to C32 (ADA)
+    CampSectionData["C32"]["size"] = CampSectionData["C32"]["size"] - Camps["M3ga St3llar Ali3ns"]
+    CampSectionData["C32"]["size"] = CampSectionData["C32"]["size"] - Camps["Camp Schwifty 2020!"]
+    del Camps["M3ga St3llar Ali3ns"]
+    del Camps["Camp Schwifty 2020!"]
+
+    #combine TEAM BLAST OFF & Camp Wurder
+    Camps["TEAM BLAST OFF & Camp Wurder"] = Camps["TEAM BLAST OFF"] + Camps["Camp Wurder"]
+    del Camps["TEAM BLAST OFF"]
+    del Camps["Camp Wurder"]
+
+def writeJsonInputs():
+    with open("InputData.json", "w") as outfile:
+        json.dump(formatedInputData, outfile)
+
+def formatInput():
+    getCampingData()      
+    getGroupCampsData()
+    calculateAreaPerCamp()
+    specialCases()
+    writeJsonInputs()
+
+sys.modules[__name__] = formatInput
+
+
