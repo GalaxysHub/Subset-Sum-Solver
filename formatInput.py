@@ -42,9 +42,9 @@ def getGroupCampsData():
                 printable = set(string.printable)
                 groupName = ''.join(filter(lambda x: x in printable, groupName))
                 if(groupName in Camps.keys()):
-                    #combines duplicate camp ohanas. There's a better way to do this
-                    totalPeople = totalPeople + int(row["Size"])
-                    Camps[groupName+" x2"] = Camps[groupName] + int(row['Size'])
+                    #combines duplicate camp ohanas. won't work for more than 2 duplicates
+                    Camps[groupName+" 1"] = Camps[groupName] 
+                    Camps[groupName+" 2"] = int(row['Size'])
                     del Camps[groupName]
                 else:
                     Camps[groupName] = int(row['Size'])
@@ -63,26 +63,41 @@ def calculateAreaPerCamp():
 
 
 def specialCases():
-
+    OmittedCamps = {}
     Camps = formatedInputData["Camps"]
     CampSectionData = formatedInputData["CampSectionData"]
 
     #move slippery saucy sloots & Cabbage Pash Kids to B32 (ADA)
     CampSectionData["B32"]["size"] = CampSectionData["B32"]["size"] - Camps["slippery saucy sloots"]
     CampSectionData["B32"]["size"] = CampSectionData["B32"]["size"] - Camps["cabbage pash kids"]
+    OmittedCamps["slippery saucy sloots"]=Camps["slippery saucy sloots"]
+    OmittedCamps["cabbage pash kids"]=Camps["cabbage pash kids"]
     del Camps["slippery saucy sloots"]
     del Camps["cabbage pash kids"]
 
     #move M3ga St3llar Ali3ns and Camp Schwifty 2020! to C32 (ADA)
     CampSectionData["C32"]["size"] = CampSectionData["C32"]["size"] - Camps["M3ga St3llar Ali3ns"]
     CampSectionData["C32"]["size"] = CampSectionData["C32"]["size"] - Camps["Camp Schwifty 2020!"]
+    OmittedCamps["M3ga St3llar Ali3ns"]=Camps["M3ga St3llar Ali3ns"]
+    OmittedCamps["Camp Schwifty 2020!"]=Camps["Camp Schwifty 2020!"]
     del Camps["M3ga St3llar Ali3ns"]
     del Camps["Camp Schwifty 2020!"]
 
+    #copmbine Camp Ohanas
+    Camps["Camp Ohana x2"] = Camps["Camp Ohana 1"] + Camps["Camp Ohana 2"]
+    OmittedCamps["Camp Ohana 1"]=Camps["Camp Ohana 1"]
+    OmittedCamps["Camp Ohana 2"]=Camps["Camp Ohana 2"]
+    del Camps["Camp Ohana 1"]
+    del Camps["Camp Ohana 2"]
+
     #combine TEAM BLAST OFF & Camp Wurder
     Camps["TEAM BLAST OFF & Camp Wurder"] = Camps["TEAM BLAST OFF"] + Camps["Camp Wurder"]
+    OmittedCamps["TEAM BLAST OFF"] = Camps["TEAM BLAST OFF"]
+    OmittedCamps["Camp Wurder"]=Camps["Camp Wurder"]
     del Camps["TEAM BLAST OFF"]
     del Camps["Camp Wurder"]
+
+    formatedInputData["OmittedCamps"] = OmittedCamps
 
 def writeJsonInputs():
     with open("InputData.json", "w") as outfile:

@@ -3,15 +3,6 @@ from SubsetSumSolver import CampSorter
 import json
 import formatInput
 
-numSolToGen = 10
-bestSolution = None
-bestSpread = None
-firstTime = True
-
-maxIter = 10000
-inc = 5
-initBounds = 0
-trysPerSect = 50
 
 
 def writeJsonSolution(solution):
@@ -25,6 +16,16 @@ def writeJsonSolution(solution):
         json.dump(data, outfile)
 
 def run():
+    numSolToGen = 10
+    bestSolution = None
+    bestSpread = None
+    firstTime = True
+
+    maxIter = 10000
+    inc = 5
+    initBounds = 0
+    trysPerSect = 50
+
     formatInput()
     #Generates all solutions and picks best one
     for i in range(0,numSolToGen,1):

@@ -1,0 +1,73 @@
+function run() {
+   var ss = SpreadsheetApp.getActiveSpreadsheet();
+    var s = ss.getSheetByName('formatedSolution');
+    var range = s.getDataRange()
+    var values = range.getValues();
+
+
+    createNewSheet_("Camps Grid");
+    let CampsGridSheet = ss.getSheetByName('Camps Grid');
+    CampsGridSheet.clear();
+    let currentSectionCol = null;
+    let totalLen = 1;
+    let gridCol = 1;
+    let rowNum = 0;
+    let colors = ["#f4cccc","#fce5cd","#fff2cc","#d9ead3","#d0e0e3","#c9daf8","#d9d2e9","#ead1dc"];
+
+    for(let r = 1; r<values.length; r++){
+      let campData = values[r];
+      let campKey = campData[0];
+      console.log('campKey',campKey);
+      let sectionArr = campKey.split('-');
+      let length = campData[2];
+      console.log(sectionArr);
+
+      console.log(length);
+      let campCol = sectionArr[0];
+      console.log("currentSectionCol",currentSectionCol)
+      console.log("campCol",campCol)
+
+      if(!currentSectionCol) currentSectionCol=campCol;
+      if(campCol!=currentSectionCol){
+        currentSectionCol=campCol;
+        //start new column if new camp col
+        totalLen = 1;
+        rowNum = 0;
+        gridCol +=2;
+      }
+      let endLength = totalLen+length;
+      console.log('endLength',endLength);
+      console.log('totalLen',totalLen);
+
+      CampsGridSheet.getRange(totalLen,gridCol,length,1)
+      .setValue(campKey+": "+" "+campData[2]+"x"+campData[3]+"\n"+campData[1])
+      .merge()
+      .setHorizontalAlignment("center").setVerticalAlignment("middle")
+      .setBackground(colors[rowNum])
+      .setFontSize(12)
+      .setFontWeight("bold");
+
+      totalLen = endLength;
+      rowNum++;
+    }
+    CampsGridSheet.autoResizeColumns(1,CampsGridSheet.getMaxColumns())
+
+}
+
+
+function createNewSheet_(name) {
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  
+  // Returns an existing sheet if it has the specified
+  // name. Activates the sheet before returning.
+  var sheet = ss.getSheetByName(name);
+  if (sheet) {
+    return sheet.activate();
+  }
+  
+  // Otherwise it makes a sheet, set its name, and returns it.
+  // New sheets created this way automatically become the active
+  // sheet.
+  sheet = ss.insertSheet(name); 
+  return sheet; 
+}
