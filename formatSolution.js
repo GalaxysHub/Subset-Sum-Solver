@@ -13,6 +13,21 @@ async function run() {
   await writeSolution();
 }
 
+var reA = /[^a-zA-Z]/g;
+var reN = /[^0-9]/g;
+
+function sortAlphaNum(a, b) {
+  var aA = a.replace(reA, "");
+  var bA = b.replace(reA, "");
+  if (aA === bA) {
+    var aN = parseInt(a.replace(reN, ""), 10);
+    var bN = parseInt(b.replace(reN, ""), 10);
+    return aN === bN ? 0 : aN > bN ? 1 : -1;
+  } else {
+    return aA > bA ? 1 : -1;
+  }
+}
+
 async function specialCases(solution) {
   const { Sections, CampAreas, Camps, CampLengths } = solution;
 
@@ -33,7 +48,7 @@ async function specialCases(solution) {
       CampLengths[i].push(
         Math.round(CampAreasMap["slippery saucy sloots"] / 70)
       );
-      //Add cabbage pash kids
+      //Add cabbage pash kids`
       Camps[i].push("cabbage pash kids");
       CampAreas[i].push(CampAreasMap["cabbage pash kids"]);
       CampLengths[i].push(Math.round(CampAreasMap["cabbage pash kids"] / 70));
@@ -97,7 +112,7 @@ async function formatSolution(solution) {
 
   //sort sections
   let campSectionKeys = Object.keys(formatedSolution);
-  campSectionKeys.sort();
+  campSectionKeys.sort(sortAlphaNum);
   let sortedSolution = {};
   campSectionKeys.forEach((key) => {
     sortedSolution[key] = formatedSolution[key];
