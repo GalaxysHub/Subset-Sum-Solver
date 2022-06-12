@@ -1,36 +1,29 @@
 import random
+import json
 
-numSolToGen = 10
-bestSolution = None
-bestSpread = None
-firstTime = True
-
-maxIter = 10000
-inc = 5
-initBounds = 0
-trysPerSect = 50
-
+global inputData
+with open('InputData.json', 'r') as f:
+  inputData = json.load(f)
 class CampSorter:
 
     def __init__(self, maxAttempts = 10000, increment = 5, boundsDifStart = 0, trysPerSection = 25):
+        campdata = list(inputData['CampSectionData'].values())
         self.maxAttempts = maxAttempts
         self.increment = increment
         self.boundsDifStart = boundsDifStart
         self.trysPerSection = trysPerSection
 
-        self.pieces = [15616,14720,13184,12544,10368,9600,9088,8832,8064,8064,7680,7680,7424,6784,6656,6528,6528,6400,6400,6272,6016,5888,5888,5760,5760,5632,5632,5504,5504,5504,5376,5376,5376,5248,5248,5248,5120,4992,4992,4992,4864,4864,4736,4736,4736,4736,4608,4608,4608,4608,4480,4480,4480,4352,4352,4352,4352,4224,4096,4096,4096,4096,3968,3968,3968,3968,3968,3840,3840,3840,3840,3840,3840,3712,3712,3712,3712,3712,3712,3584,3584,3584,3584,3584,3456,3456,3456,3328,3328,3328,3328,3328,3328,3328,3328,3328,3200,3200,3200,3200,3200,3200,3200,3200,3200,3072,3072,3072,3072,3072,3072,3072,2944,2944,2944,2816,2816,2816,2816,2816,2816,2816,2816,2688,2688,2688,2688,2688,2688,2560,2560,2560,2560,2560,2560,2560,2560,2560,2560,2560,2432,2304,2560]
-
+        self.pieces = list(inputData["Camps"].values())
         self.campSizeKeys = self.pieces[:]
-        self.campLeaders = ["AlBe","RaEd","HeJo","NeMe","KeLe","FeHa","JeEl","TiKr","CaGo","DeLi","CoPr","JoPo","KeC","KeBu","SAMC","AlCh","GrMa","KaGr","MeKa","JePe","BrSc","AdDi","AlSe","ChDo","JoJo","AnMa","DuDi","AaJo","BrMe","CaCo","BrCa","JeTr","MeSp","CaMa","JeAl","MiBe","LiBe","AnKi","KhSi","MaKi","LyJo","SaN","AyEr","MeHe","NaBl","PaSc","JaLe","MiDo","RyPi","SaBu","DoKo","MiRa","YoLo","DeHo","DeGu","GiGa","IaMu","MaWr","BrMe","MiAn","NaLe","ScKe","AlPe","KaRa","LeSc","NiSl","shda","BrBi","CaCa","JoCa","LaEl","MaMa","NoSi","AlAl","DeKi","ElSa","JoSe","SaUr","ScVa","ChHi","DaMc","JaHa","JoAr","PaSt","AaSc","LaNg","TySe","AaBu","JeNo","KaWi","MaHa","MiLi","PaHo","SeTh","ShSe","StNi","AlSy","ChFa","ChCh","HaSt","HeSn","JePa","LiNg","NiSt","RiCo","AmCa","AnMi","BrCl","CaWa","ReAr","StCs","TyKa","CoTa","PhRo","SeRe","CoLy","DaEd","JoBe","KaRi","OmVe","SaMe","StWe","StSp","AlSt","JaKo","kali","LiMi","PaMi","ZaCr","AnWe","AuRe","BeRo","ChLa","CoCh","DuCr","KeSm","RyBl","thle","TiBe","VeWa","MiMa","ChNg","BrTh"]
-
-        self.sections = [22790,18550,18550,18550,18550,18550,18550,18550,18550,15890,16030,18690,18690,18690,18690,18690,16020,23630,19460,19460,19460,19460,19460,19460,19460,19460,19460,19460,19460,19460,19460,19460,19460,16680]
+        self.camps =  list(inputData["Camps"].keys())
+        self.sections = [d['size'] for d in campdata]
 
         self.sectionKeys = self.sections[:]
-        self.sectionNames = ['A1','B1','C1','D1','E1','F1','G1','H1','I1','J1','K1','L1','M1','N1','O1','P1','Q1','A2','B2','C2','D2','E2','F2','G2','H2','I2','J2','K2','L2','M2','N2','O2','P2','Q2']
-        self.sectionWidths = [86,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,60,85,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,60]
+        self.sectionNames = list(inputData["CampSectionData"].keys())
+        self.sectionWidths =  [d['width'] for d in campdata]
 
         self.sectionSolutions = [[] for _ in range(len(self.sections))]
-        self.campLeaderSolutions = [[] for _ in range(len(self.sections))]
+        self.campsSolutions = [[] for _ in range(len(self.sections))]
         self.campLengthsSolutions = []
 
         self.sectionsSortedNames = []
@@ -48,13 +41,12 @@ class CampSorter:
                     del self.sectionKeys[i]
                     del self.sectionNames[i]
                     del self.sectionWidths[i]
-                    break;
+                    break
 
 #---------------Begin Function Declarations------------------
 #trys to find fit for a section with the campsite self.pieces
     def fit(self, sectionSize, LB, UB, maxNum,minNum=1):
         solution = []
-        newPieces = []
 
         random.shuffle(self.pieces)
 
@@ -149,14 +141,14 @@ class CampSorter:
 
                 for j in range(len(self.campSizeKeys)):
                     if(self.campSizeKeys[j]==solution):
-                        self.campLeaderSolutions[i].append(self.campLeaders[j])
-                        del self.campLeaders[j]
+                        self.campsSolutions[i].append(self.camps[j])
+                        del self.camps[j]
                         del self.campSizeKeys[j]
-                        break;
+                        break
 
     def generateAndReturnSolution(self):
         self.getFullSolution()
-        return spread, self.pieces, self.sectionsSortedNames, self.sectionSolutions, self.dif, self.campLeaderSolutions, self.campLengthsSolutions
+        return spread, self.pieces, self.sectionsSortedNames, self.sectionSolutions, self.dif, self.campsSolutions, self.campLengthsSolutions
 
     def printFullSolution(self):
         self.getFullSolution()
@@ -167,8 +159,8 @@ class CampSorter:
         print(self.sectionSolutions)
         print("\nDifferences between summed camp area and section area: ")
         print(self.dif)
-        print("\nCamp Leaders: ")
-        print(self.campLeaderSolutions)
+        print("\nCamps: ")
+        print(self.campsSolutions)
         print("\nCamp Lengths: ")
         print(self.campLengthsSolutions)
         print("\nPieces remaining: ")
@@ -182,21 +174,7 @@ class CampSorter:
         f.write(headers+"\n")
 
         for i in range(len(self.sectionSolutions)):
-            f.write(self.sectionsSortedNames[i]+","+str(self.sectionSolutions[i]).replace(",","|")+","+str(self.dif[i])+","+str(self.campLeaderSolutions[i]).replace(",","|")+","+str(self.campLengthsSolutions[i]).replace(",","|")+"\n")
+            f.write(self.sectionsSortedNames[i]+","+str(self.sectionSolutions[i]).replace(",","|")+","+str(self.dif[i])+","+str(self.campsSolutions[i]).replace(",","|")+","+str(self.campLengthsSolutions[i]).replace(",","|")+"\n")
         f.close()
 
-#Generates all solutions and picks best one
-for i in range(0,numSolToGen,1):
-    print("\nSolving solution "+str(i+1)+" of "+str(numSolToGen))
-    solution = CampSorter(maxIter,inc,initBounds,trysPerSect)
-    fullSolution = solution.generateAndReturnSolution()
-    print("Spread: " + str(fullSolution[0]))
-    print("Unsorted pieces: " + str(fullSolution[1]))
-    #replaces old solution if better one is found
-    if (firstTime or fullSolution[0]<bestSpread) and fullSolution[1]==[]:
-        bestSpread = fullSolution[0]
-        bestSolution = solution
-        firstTime = False
-        print("The best spread has been updated to "+str(bestSpread))
 
-print(bestSolution.printFullSolution())
