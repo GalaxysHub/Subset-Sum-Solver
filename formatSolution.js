@@ -93,10 +93,22 @@ async function specialCases(solution) {
 async function formatSolution(solution) {
   const { Sections, CampAreas, Camps, CampLengths } = solution;
 
+  //Sort setions alphanumerically
+  const SectionsMap = {};
+
   Sections.forEach((section, i) => {
-    let groupCamps = Camps[i];
-    let camp_lengths = CampLengths[i];
-    let camp_areas = CampAreas[i];
+    SectionsMap[section] = {
+      groupCamps: Camps[i],
+      camp_lengths: CampLengths[i],
+      camp_areas: CampAreas[i],
+    };
+  });
+
+  const sortedSections = Object.keys(SectionsMap).sort(sortAlphaNum);
+  console.log("sortedSections =>", sortedSections);
+
+  sortedSections.forEach((section, i) => {
+    const { groupCamps, camp_lengths, camp_areas } = SectionsMap[section];
     groupCamps.forEach((camp, j) => {
       let sectionIndex = section + "-" + String.fromCharCode(65 + j);
       let campLength = camp_lengths[j];
@@ -109,15 +121,6 @@ async function formatSolution(solution) {
       };
     });
   });
-
-  //sort sections
-  let campSectionKeys = Object.keys(formatedSolution);
-  campSectionKeys.sort(sortAlphaNum);
-  let sortedSolution = {};
-  campSectionKeys.forEach((key) => {
-    sortedSolution[key] = formatedSolution[key];
-  });
-  formatedSolution = sortedSolution;
 }
 
 async function writeSolution() {
