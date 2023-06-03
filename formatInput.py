@@ -2,8 +2,8 @@ import csv, sys
 import json
 import string
 
-group_camps = 'EF 2022 - Camping Groups.csv'
-camp_section = 'EF 2022 - Camp Sections.csv'
+group_camps = 'EF2023 - Camping Groups.csv'
+camp_section = 'EF2023 - Camp Sections.csv'
 
 
 formatedInputData = {}
@@ -11,7 +11,7 @@ totalArea = 0
 totalPeople = 0
 
 def getCampingData():
-    with open(camp_section, newline='') as f:
+    with open(camp_section, newline='',encoding='utf-8') as f:
         reader = csv.DictReader(f)
         CampSectionData = {}
         try:
@@ -30,7 +30,7 @@ def getCampingData():
             sys.exit('file {}, line {}: {}'.format(group_camps, reader.line_num, e))
 
 def getGroupCampsData():
-    with open(group_camps, newline='') as f:
+    with open(group_camps, newline='', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         Camps = {}
         try:
@@ -41,13 +41,7 @@ def getGroupCampsData():
                 groupName = row['Group Name']
                 printable = set(string.printable)
                 groupName = ''.join(filter(lambda x: x in printable, groupName))
-                if(groupName in Camps.keys()):
-                    #combines duplicate camp ohanas. won't work for more than 2 duplicates
-                    Camps[groupName+" 1"] = Camps[groupName] 
-                    Camps[groupName+" 2"] = int(row['Size'])
-                    del Camps[groupName]
-                else:
-                    Camps[groupName] = int(row['Size'])
+                Camps[groupName] = int(row['Size'])
             formatedInputData["Camps"] = Camps
             
 
@@ -107,8 +101,10 @@ def formatInput():
     getCampingData()      
     getGroupCampsData()
     calculateAreaPerCamp()
-    specialCases()
+    # specialCases()
     writeJsonInputs()
+
+
 
 sys.modules[__name__] = formatInput
 

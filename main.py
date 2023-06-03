@@ -3,8 +3,6 @@ from SubsetSumSolver import CampSorter
 import json
 import formatInput
 
-
-
 def writeJsonSolution(solution):
     data = {
         "Sections": solution.sectionsSortedNames,
@@ -23,7 +21,7 @@ def run():
 
     maxIter = 10000
     inc = 5
-    initBounds = 0
+    initBounds = 5
     trysPerSect = 50
 
     formatInput()

@@ -8,7 +8,7 @@ let formatedSolution = {};
 async function run() {
   let rawData = await fs.readFileSync("solution.json");
   let solution = JSON.parse(rawData);
-  await specialCases(solution);
+  // await specialCases(solution);
   await formatSolution(solution);
   await writeSolution();
 }
