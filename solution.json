@@ -1,1 +1,1496 @@
-{"Sections": ["E1", "E2", "E3", "E4", "E5", "E6", "E7", "E8", "E9", "E10", "B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8", "B9", "B10", "B11", "B12", "B13", "B14", "B15", "B16", "B17", "B18", "B19", "B20", "B21", "B22", "A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "A10", "A11", "A12", "A13", "A14", "A15", "A16", "A17", "A18", "A19", "A20", "A21", "A22", "D1", "D2", "C1", "C2"], "CampAreas": [[5612.1787, 4931.9146], [4251.6506, 6292.4428], [10544.0934], [6972.7069, 3571.3865], [5782.2448, 4761.8486], [3571.3865, 3401.3204, 3571.3865], [4931.9146, 5612.1787], [4931.9146, 5612.1787], [4421.7166, 6122.3768], [4081.5845, 6462.5088], [8163.1691, 3571.3865, 10203.9613], [5782.2448, 7993.103, 3401.3204, 4761.8486], [4421.7166, 5101.9807, 2550.9903, 6292.4428, 3571.3865], [4761.8486, 4931.9146, 8843.4332, 3401.3204], [6632.5749, 10884.2254, 4421.7166], [4081.5845, 12925.0177, 4931.9146], [5101.9807, 5442.1127, 7993.103, 3401.3204], [5272.0467, 3401.3204, 13265.1497], [8163.1691, 4761.8486, 4251.6506, 4761.8486], [4421.7166, 5101.9807, 4081.5845, 8333.2351], [5952.3108, 3401.3204, 4251.6506, 8333.2351], [6122.3768, 5101.9807, 5782.2448, 4931.9146], [4761.8486, 5782.2448, 7312.839, 4081.5845], [4251.6506, 3741.4525, 2550.9903, 3911.5185, 7482.905], [3401.3204, 11904.6216, 6632.5749], [5782.2448, 4251.6506, 3401.3204, 3911.5185, 4591.7826], [5272.0467, 6802.6409, 5612.1787, 4251.6506], [5442.1127, 3401.3204, 13265.1497], [5272.0467, 8333.2351, 4081.5845, 4251.6506], [8163.1691, 6122.3768, 3741.4525, 3911.5185], [8673.3671, 6802.6409, 6462.5088], [3911.5185, 3911.5185, 4931.9146, 4081.5845, 5272.0467], [4761.8486, 3401.3204, 6462.5088, 8163.1691, 3911.5185, 4761.8486], [8503.3011, 5612.1787, 7823.037, 4081.5845, 5442.1127], [3401.3204, 4591.7826, 4931.9146, 5272.0467, 9523.6972, 3741.4525], [5782.2448, 13605.2818, 12074.6876], [7312.839, 5101.9807, 4761.8486, 4081.5845, 4761.8486, 5442.1127], [7993.103, 5272.0467, 6972.7069, 11224.3575], [5612.1787, 7823.037, 5101.9807, 8843.4332, 4081.5845], [6802.6409, 5101.9807, 6972.7069, 6292.4428, 6292.4428], [11394.4235, 3401.3204, 4931.9146, 8333.2351, 3571.3865], [9523.6972, 6122.3768, 8333.2351, 4081.5845, 3401.3204], [7482.905, 3741.4525, 4081.5845, 4421.7166, 5272.0467, 3231.2544, 3401.3204], [4931.9146, 9863.8293, 7823.037, 4081.5845, 4761.8486], [8163.1691, 7993.103, 4251.6506, 3401.3204, 3401.3204, 4421.7166], [3741.4525, 9353.6312, 5442.1127, 13095.0837], [3401.3204, 7142.7729, 8503.3011, 6632.5749, 5782.2448], [6292.4428, 6972.7069, 6462.5088, 5782.2448, 5952.3108], [14115.4798, 4081.5845, 3911.5185, 4081.5845, 5442.1127], [3571.3865, 5612.1787, 6122.3768, 5782.2448, 4081.5845, 6292.4428], [11054.2914, 3401.3204, 3571.3865, 5442.1127, 3401.3204, 4591.7826], [4591.7826, 6292.4428, 9013.4992, 11734.5555], [7652.971, 4251.6506, 3571.3865, 5272.0467, 3911.5185, 3401.3204, 3571.3865], [7312.839, 6972.7069, 17176.6682], [2210.8583, 12925.0177, 4931.9146, 6972.7069, 5952.3108], [4591.7826, 3401.3204, 7142.7729, 11054.2914, 6972.7069], [22278.6489, 4421.7166, 7993.103, 9013.4992, 3571.3865], [4931.9146, 3911.5185, 6462.5088, 3401.3204, 3571.3865, 12584.8856, 6292.4428, 6122.3768]], "Camps": [["BBB", "Camp K-Rocked"], ["FestiFeet Presents: D*cksquad", "Cheeky Squeaky Squad"], ["WubbaLubbaDubz Club"], ["Camp Whippet Out", "BIGGER SPUNGUS"], ["Duck Squad", "Sexy Rave Mofos"], ["Tree People", "Olive Garden: WYHYF", "wookies IYKYK"], ["Rave Little Toasters, Part Deuce: Burnt and Buttered", "Camp Wookery"], ["SL,UT CAMP", "P$$y Suckaz"], ["Alvin and the chipmunks", "The Nest"], ["Camp Feel My Face", "wick digglers llc"], ["Camp Electrip - Year 5!", "PIZZA PLANET", "Get Your Sh!t Together"], ["Hot n' Heady", "Camp Magic Conch", "Electric Cowboy Collective", "Camp Rabbit Hole "], ["SQUAAA", "CAMP FRAMP", "The T Is For ", "Boneless Brother", "Fabtastic Funkonaut's"], ["E4 Avenue", "Camp (K)yle", "Electric Sofa", "Freak Candy"], ["nature wh*res", "Sesame Skeeet", "The Floor People"], ["Just Boof It", "FACEMELT FAM", "Bubba Wumps Horse Rescue and Sanctuary"], ["The Painted Taint", "Church Of Tracy", "WE OUT HERE!", "Quest Totem Crew"], ["Texxxas Fuxxx", "Electric Turtles", "Bippity Boppity Boof"], ["Camp Pandamonium", "Wook Wonderland", "Camp Bean Sprouts", "The Re-Up Rascals"], ["joy aberg", "THE STABLES", "Feral Buellers Days Off", "I smell Socks & Kandi"], ["CAMP SIDEBOOB", "Mukbang!", "Bob Squad", "Giggles N Jiggles"], ["Wook Wash", "Electric Bogaloo", "Womp Rats", "Meet me at Griz"], ["Daddy Dicks Boof Emporium", "Boofy Goobers", "Good Life Rejects", "Dr. Rackwood & Friends"], ["Scholastic Wook Fair", "Astral Adventurers", "Womp Wizards", "Space Goats", "The K-yoshi Warriors of Boof Sing Bae"], ["Flavortown", "Wookakke", "Vibe Check"], ["The Tab Lab", "Space Camp", "PEGASUS NOVA 6", "Litty T!tty Festy Committee", "Sherwoo Dhamburger"], ["Coochie Corral Boofs Peepy", "The Hug House", "Cabbage Corp.", "BCD Rave Fam"], ["Camp Schwifty!", "Martha Stewarts Wooking School", "CAMP TRASH PANDA"], ["Camp Hell Yeah", "Midlife Hypeness", "Behrens' Big Booty Bach", "Cynefin"], ["Camp Kampington", "Camp Wurder", "Cream Team 6", "Lost + Found Forest Fairies"], ["Mt. Ketaminjaro", "BOOF WELLINGTON", "The Boof Cottage"], ["Magical Mustard Magicians", "One Day Dipsters", "KosmiK Brownies", "highly flavored", "Kilos in the Jungle"], ["Shock Flock", "an escargatoire of snails", "Kamp Kazoo", "Camp: Somebody Pick A F*cking Name", "Hot liquor and warm shrimp", "Bubble Gang"], ["NOEL'S ASS", "Mommy Milkers", "Flamingos in the Forest", "Ferals, Fiends, and Firgins", "Camp Kind Neighbors"], ["Silly Geese Police", "Robert Wayne", "Dubsteppas", "Cooked Wooks", "The Neigh Brigade", "Rainbow Unicorn Farts"], ["Wooky Wonka and the Crackhead Factory", "Yeet Street", "Lunchbox Fam"], ["AVOSQUADO", "House Hooligans & the Bass Brigade", "ICT Rave Crew EF", "Feral Chickens ", "The Forest Dwellers", "Roll Modelz "], ["Kevin Quillen", "Boofa Troopas", "Camp Nosbulla", "Ghosts of Serotonins Past"], ["Biscuits and Ravey", "Grilled Cheese and B!tches", "Disco Ducks", "Colorado Love Company", "Street Rat Gang"], ["Camp Tittysprinkles", "No Very Poor Avatars", "Dude, where's my Chris?", "What Are You Doing Stepladder?", "Big Daddy Purp and the Twerps"], ["KETAMINE KOWGURLS", "Shroomie Tunes", "Gremtown", "Rave Boys and Girls Scouts of Rothbury", "Sloths United"], ["the entire bee movie script", "Peacewaves", "Camp Cern Derg", "Squirt Squad", "Panda Tribe"], ["Ride the Pony", "#notmycockring", "Pizza Gang", "Pashmina Spaceship", "Camp Weird", "BIKINI BOTTOMLESS", "Don Juan Doobiers"], ["Coreys Belly Slappers", "Keta Kweens and Lentil Beans", "Fabulous Flock of the Forest", "Samuel Gomez", "Peace, Love and Wubs"], ["Products of D.A.R.E.", "Nicholas Pogrebneak", "Camp Prison", "K-Hole Kauldron", "Rave Fam Estates", "The Mushroom Kingdom"], ["The Degen Justice League", "Camp Sup Sau", "Camp No Training Wheelz", "The Shadow People"], ["Boofstreet Boys", "Chain Gang", "Gangsta's Paradise", "Drury Lane", "William York"], ["Camp Boofs 'n Cats", "Boomin n' Goofin", "FraggleKroc", "Ethically Sourced Sluts", "Camp Baby Kyle"], ["Banana Bois b2b Chedda Mommas", "Horsesmiths Village", "Kayuga", "Bills Mafia", "In Crust We Trust"], ["Babe, do you have my molly?", "Employees of the Month", "Electric Pissers", "Deems Kingdom", "Bikini Bottom B00ty Blasters", "Bojack does the Electric Slide"], ["Sproutin About", "Todd's Marbles", "BuffaHOES", "The Dancing Lobsters", "pArTy PeOpLe", "Are you a real fan?"], ["Level 9 Silly Geese", "The Boofenshmirtzs", "Camp House Plant", "flAMIGOS"], ["Tortugas", "Camp Get Weird", "too broke for good life", "LOSTINTHEWOODSH3", "Dr. Dres Dab Lab", "Camp Buttstuff", "Camp Greendale"], ["Camp Slap the Bag", "CAMP VIBE TRIBE", "Bufus Du Roll"], ["gary zhao", "EternalVibeTribe", "YEET ME THROUGH SPACE", "Fun In The Sun", "Camp Build A Wook"], ["Outtie Slayas", "CAMP NANNERS", "Camp Milk", "Cabbage Pash Kids", "K is for Koala"], ["My Friends Never Die", "HornyHours", "PeRF in the Mush-Room", "GOOD VIBE TRIBE", "Forest Fish :)"], ["Daddy Den", "ANTHONY Sayenko", "Moon Jellies", "Big Beef Bouillon", "Swamp Squad", "F@#$ YOU I'M A WIZARD", "The Marvelous Misfits", "Sauce Squad"]], "CampLengths": [[80.0, 70.0], [61.0, 90.0], [151.0], [100.0, 51.0], [83.0, 68.0], [51.0, 49.0, 51.0], [70.0, 80.0], [70.0, 80.0], [63.0, 87.0], [58.0, 92.0], [82.0, 36.0, 102.0], [58.0, 80.0, 34.0, 48.0], [44.0, 51.0, 26.0, 63.0, 36.0], [48.0, 49.0, 88.0, 34.0], [66.0, 109.0, 44.0], [41.0, 129.0, 49.0], [51.0, 54.0, 80.0, 34.0], [53.0, 34.0, 133.0], [82.0, 48.0, 43.0, 48.0], [44.0, 51.0, 41.0, 83.0], [60.0, 34.0, 43.0, 83.0], [61.0, 51.0, 58.0, 49.0], [48.0, 58.0, 73.0, 41.0], [43.0, 37.0, 26.0, 39.0, 75.0], [34.0, 119.0, 66.0], [58.0, 43.0, 34.0, 39.0, 46.0], [53.0, 68.0, 56.0, 43.0], [54.0, 34.0, 133.0], [53.0, 83.0, 41.0, 43.0], [82.0, 61.0, 37.0, 39.0], [87.0, 68.0, 65.0], [26.0, 26.0, 33.0, 27.0, 35.0], [48.0, 34.0, 65.0, 82.0, 39.0, 48.0], [85.0, 56.0, 78.0, 41.0, 54.0], [34.0, 46.0, 49.0, 53.0, 95.0, 37.0], [58.0, 136.0, 121.0], [73.0, 51.0, 48.0, 41.0, 48.0, 54.0], [80.0, 53.0, 70.0, 112.0], [56.0, 78.0, 51.0, 88.0, 41.0], [68.0, 51.0, 70.0, 63.0, 63.0], [114.0, 34.0, 49.0, 83.0, 36.0], [95.0, 61.0, 83.0, 41.0, 34.0], [75.0, 37.0, 41.0, 44.0, 53.0, 32.0, 34.0], [49.0, 99.0, 78.0, 41.0, 48.0], [82.0, 80.0, 43.0, 34.0, 34.0, 44.0], [37.0, 94.0, 54.0, 131.0], [34.0, 71.0, 85.0, 66.0, 58.0], [63.0, 70.0, 65.0, 58.0, 60.0], [141.0, 41.0, 39.0, 41.0, 54.0], [36.0, 56.0, 61.0, 58.0, 41.0, 63.0], [111.0, 34.0, 36.0, 54.0, 34.0, 46.0], [46.0, 63.0, 90.0, 117.0], [77.0, 43.0, 36.0, 53.0, 39.0, 34.0, 36.0], [73.0, 70.0, 172.0], [15.0, 86.0, 33.0, 46.0, 40.0], [31.0, 23.0, 48.0, 74.0, 46.0], [149.0, 29.0, 53.0, 60.0, 24.0], [33.0, 26.0, 43.0, 23.0, 24.0, 84.0, 42.0, 41.0], [80.0, 70.0], [61.0, 90.0], [151.0], [100.0, 51.0], [83.0, 68.0], [51.0, 49.0, 51.0], [70.0, 80.0], [70.0, 80.0], [63.0, 87.0], [58.0, 92.0], [82.0, 36.0, 102.0], [58.0, 80.0, 34.0, 48.0], [44.0, 51.0, 26.0, 63.0, 36.0], [48.0, 49.0, 88.0, 34.0], [66.0, 109.0, 44.0], [41.0, 129.0, 49.0], [51.0, 54.0, 80.0, 34.0], [53.0, 34.0, 133.0], [82.0, 48.0, 43.0, 48.0], [44.0, 51.0, 41.0, 83.0], [60.0, 34.0, 43.0, 83.0], [61.0, 51.0, 58.0, 49.0], [48.0, 58.0, 73.0, 41.0], [43.0, 37.0, 26.0, 39.0, 75.0], [34.0, 119.0, 66.0], [58.0, 43.0, 34.0, 39.0, 46.0], [53.0, 68.0, 56.0, 43.0], [54.0, 34.0, 133.0], [53.0, 83.0, 41.0, 43.0], [82.0, 61.0, 37.0, 39.0], [87.0, 68.0, 65.0], [26.0, 26.0, 33.0, 27.0, 35.0], [48.0, 34.0, 65.0, 82.0, 39.0, 48.0], [85.0, 56.0, 78.0, 41.0, 54.0], [34.0, 46.0, 49.0, 53.0, 95.0, 37.0], [58.0, 136.0, 121.0], [73.0, 51.0, 48.0, 41.0, 48.0, 54.0], [80.0, 53.0, 70.0, 112.0], [56.0, 78.0, 51.0, 88.0, 41.0], [68.0, 51.0, 70.0, 63.0, 63.0], [114.0, 34.0, 49.0, 83.0, 36.0], [95.0, 61.0, 83.0, 41.0, 34.0], [75.0, 37.0, 41.0, 44.0, 53.0, 32.0, 34.0], [49.0, 99.0, 78.0, 41.0, 48.0], [82.0, 80.0, 43.0, 34.0, 34.0, 44.0], [37.0, 94.0, 54.0, 131.0], [34.0, 71.0, 85.0, 66.0, 58.0], [63.0, 70.0, 65.0, 58.0, 60.0], [141.0, 41.0, 39.0, 41.0, 54.0], [36.0, 56.0, 61.0, 58.0, 41.0, 63.0], [111.0, 34.0, 36.0, 54.0, 34.0, 46.0], [46.0, 63.0, 90.0, 117.0], [77.0, 43.0, 36.0, 53.0, 39.0, 34.0, 36.0], [73.0, 70.0, 172.0], [15.0, 86.0, 33.0, 46.0, 40.0], [31.0, 23.0, 48.0, 74.0, 46.0], [149.0, 29.0, 53.0, 60.0, 24.0], [33.0, 26.0, 43.0, 23.0, 24.0, 84.0, 42.0, 41.0]]}
+{
+    "Sections": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15",
+        "B16",
+        "B17",
+        "B18",
+        "B19",
+        "B20",
+        "B21",
+        "B22",
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15",
+        "A16",
+        "A17",
+        "A18",
+        "A19",
+        "A20",
+        "A21",
+        "A22",
+        "D1",
+        "D2",
+        "C1",
+        "C2"
+    ],
+    "CampAreas": [
+        [
+            10544.0
+        ],
+        [
+            6122.0,
+            4422.0
+        ],
+        [
+            4932.0,
+            5612.0
+        ],
+        [
+            6122.0,
+            4422.0
+        ],
+        [
+            7143.0,
+            3401.0
+        ],
+        [
+            3231.0,
+            7313.0
+        ],
+        [
+            4252.0,
+            6292.0
+        ],
+        [
+            6463.0,
+            4082.0
+        ],
+        [
+            4932.0,
+            5612.0
+        ],
+        [
+            5272.0,
+            5272.0
+        ],
+        [
+            4082.0,
+            6803.0,
+            5782.0,
+            5272.0
+        ],
+        [
+            9013.0,
+            8503.0,
+            4422.0
+        ],
+        [
+            13095.0,
+            4422.0,
+            4422.0
+        ],
+        [
+            6292.0,
+            3401.0,
+            3912.0,
+            8333.0
+        ],
+        [
+            11905.0,
+            6633.0,
+            3401.0
+        ],
+        [
+            6463.0,
+            3571.0,
+            5272.0,
+            6633.0
+        ],
+        [
+            10204.0,
+            6803.0,
+            4932.0
+        ],
+        [
+            6463.0,
+            5782.0,
+            5952.0,
+            3741.0
+        ],
+        [
+            3401.0,
+            8163.0,
+            6292.0,
+            4082.0
+        ],
+        [
+            4762.0,
+            4762.0,
+            4082.0,
+            8333.0
+        ],
+        [
+            4932.0,
+            10884.0,
+            6122.0
+        ],
+        [
+            13605.0,
+            4932.0,
+            3401.0
+        ],
+        [
+            3912.0,
+            3401.0,
+            3571.0,
+            11054.0
+        ],
+        [
+            5782.0,
+            3741.0,
+            4592.0,
+            7823.0
+        ],
+        [
+            4932.0,
+            4082.0,
+            5102.0,
+            7823.0
+        ],
+        [
+            6463.0,
+            3741.0,
+            6292.0,
+            5442.0
+        ],
+        [
+            4592.0,
+            5272.0,
+            12075.0
+        ],
+        [
+            8843.0,
+            4762.0,
+            3401.0,
+            5102.0
+        ],
+        [
+            5782.0,
+            6122.0,
+            5102.0,
+            4932.0
+        ],
+        [
+            4762.0,
+            17177.0
+        ],
+        [
+            4082.0,
+            5782.0,
+            4762.0,
+            3912.0,
+            3401.0
+        ],
+        [
+            3401.0,
+            4762.0,
+            4082.0,
+            9864.0
+        ],
+        [
+            9524.0,
+            5102.0,
+            7313.0,
+            5442.0,
+            4082.0
+        ],
+        [
+            7993.0,
+            12925.0,
+            3571.0,
+            6973.0
+        ],
+        [
+            3571.0,
+            6973.0,
+            5612.0,
+            3571.0,
+            11735.0
+        ],
+        [
+            12925.0,
+            5272.0,
+            6292.0,
+            6973.0
+        ],
+        [
+            5442.0,
+            4082.0,
+            4762.0,
+            5782.0,
+            3401.0,
+            7993.0
+        ],
+        [
+            8163.0,
+            6292.0,
+            3571.0,
+            4762.0,
+            4592.0,
+            4082.0
+        ],
+        [
+            5442.0,
+            3401.0,
+            4082.0,
+            7483.0,
+            6122.0,
+            4932.0
+        ],
+        [
+            5782.0,
+            4082.0,
+            5442.0,
+            6973.0,
+            9354.0
+        ],
+        [
+            13265.0,
+            8503.0,
+            4252.0,
+            5442.0
+        ],
+        [
+            3401.0,
+            3401.0,
+            3401.0,
+            8333.0,
+            4082.0,
+            4082.0,
+            4762.0
+        ],
+        [
+            4252.0,
+            8333.0,
+            3571.0,
+            5612.0,
+            5952.0,
+            3741.0
+        ],
+        [
+            3912.0,
+            7313.0,
+            5952.0,
+            6973.0,
+            7483.0
+        ],
+        [
+            3741.0,
+            6973.0,
+            8163.0,
+            2551.0,
+            3912.0,
+            6292.0
+        ],
+        [
+            3401.0,
+            3912.0,
+            12585.0,
+            8163.0,
+            3401.0
+        ],
+        [
+            2211.0,
+            5782.0,
+            4932.0,
+            8843.0,
+            4762.0,
+            5102.0
+        ],
+        [
+            8673.0,
+            4592.0,
+            6803.0,
+            11394.0
+        ],
+        [
+            4422.0,
+            5612.0,
+            6633.0,
+            3912.0,
+            11054.0
+        ],
+        [
+            3401.0,
+            5612.0,
+            3401.0,
+            13265.0,
+            5782.0
+        ],
+        [
+            3571.0,
+            11224.0,
+            3571.0,
+            5102.0,
+            7993.0
+        ],
+        [
+            4082.0,
+            8333.0,
+            3571.0,
+            8163.0,
+            2551.0,
+            4932.0
+        ],
+        [
+            4252.0,
+            4252.0,
+            7993.0,
+            6292.0,
+            5272.0,
+            3571.0
+        ],
+        [
+            3571.0,
+            3912.0,
+            3912.0,
+            7823.0,
+            7993.0,
+            4252.0
+        ],
+        [
+            5272.0,
+            4932.0,
+            9013.0,
+            4252.0,
+            3401.0,
+            6122.0
+        ],
+        [
+            3401.0,
+            3401.0,
+            4762.0,
+            7143.0,
+            5612.0,
+            4592.0,
+            4252.0
+        ],
+        [
+            4932.0,
+            5442.0,
+            6973.0,
+            7653.0,
+            22279.0
+        ],
+        [
+            4252.0,
+            5102.0,
+            3401.0,
+            6463.0,
+            4422.0,
+            14115.0,
+            9524.0
+        ]
+    ],
+    "Camps": [
+        [
+            "WubbaLubbaDubz Club"
+        ],
+        [
+            "The Nest",
+            "Alvin and the chipmunks"
+        ],
+        [
+            "Camp K-Rocked",
+            "BBB"
+        ],
+        [
+            "Wook Wash",
+            "SQUAAA"
+        ],
+        [
+            "Chain Gang",
+            "Olive Garden: WYHYF"
+        ],
+        [
+            "BIKINI BOTTOMLESS",
+            "Good Life Rejects"
+        ],
+        [
+            "FestiFeet Presents: D*cksquad",
+            "Cheeky Squeaky Squad"
+        ],
+        [
+            "wick digglers llc",
+            "Camp Feel My Face"
+        ],
+        [
+            "Rave Little Toasters, Part Deuce: Burnt and Buttered",
+            "Camp Wookery"
+        ],
+        [
+            "Texxxas Fuxxx",
+            "Coochie Corral Boofs Peepy"
+        ],
+        [
+            "Just Boof It",
+            "The Hug House",
+            "Duck Squad",
+            "Camp Hell Yeah"
+        ],
+        [
+            "Camp House Plant",
+            "NOEL'S ASS",
+            "The Floor People"
+        ],
+        [
+            "The Shadow People",
+            "joy aberg",
+            "Pashmina Spaceship"
+        ],
+        [
+            "Boneless Brother",
+            "Electric Cowboy Collective",
+            "Space Goats",
+            "I smell Socks & Kandi"
+        ],
+        [
+            "Wookakke",
+            "nature wh*res",
+            "Freak Candy"
+        ],
+        [
+            "The Boof Cottage",
+            "BIGGER SPUNGUS",
+            "Kilos in the Jungle",
+            "Vibe Check"
+        ],
+        [
+            "Get Your Sh!t Together",
+            "BOOF WELLINGTON",
+            "SL,UT CAMP"
+        ],
+        [
+            "Kamp Kazoo",
+            "Hot n' Heady",
+            "CAMP SIDEBOOB",
+            "Astral Adventurers"
+        ],
+        [
+            "Quest Totem Crew",
+            "Camp Electrip - Year 5!",
+            "What Are You Doing Stepladder?",
+            "Feral Buellers Days Off"
+        ],
+        [
+            "Sexy Rave Mofos",
+            "Camp Rabbit Hole ",
+            "Dr. Rackwood & Friends",
+            "Giggles N Jiggles"
+        ],
+        [
+            "Camp (K)yle",
+            "Sesame Skeeet",
+            "Camp Wurder"
+        ],
+        [
+            "Yeet Street",
+            "Bubba Wumps Horse Rescue and Sanctuary",
+            "Electric Turtles"
+        ],
+        [
+            "Litty T!tty Festy Committee",
+            "Mukbang!",
+            "Tree People",
+            "Sproutin About"
+        ],
+        [
+            "Womp Rats",
+            "Cream Team 6",
+            "Sherwoo Dhamburger",
+            "Flamingos in the Forest"
+        ],
+        [
+            "Meet me at Griz",
+            "Behrens' Big Booty Bach",
+            "CAMP FRAMP",
+            "Grilled Cheese and B!tches"
+        ],
+        [
+            "FraggleKroc",
+            "Rainbow Unicorn Farts",
+            "Big Daddy Purp and the Twerps",
+            "Church Of Tracy"
+        ],
+        [
+            "Robert Wayne",
+            "Cooked Wooks",
+            "Lunchbox Fam"
+        ],
+        [
+            "Electric Sofa",
+            "E4 Avenue",
+            "Flavortown",
+            "The Painted Taint"
+        ],
+        [
+            "Boofy Goobers",
+            "Peacewaves",
+            "THE STABLES",
+            "KosmiK Brownies"
+        ],
+        [
+            "Wook Wonderland",
+            "Bufus Du Roll"
+        ],
+        [
+            "highly flavored",
+            "The Tab Lab",
+            "The Re-Up Rascals",
+            "Lost + Found Forest Fairies",
+            "PEGASUS NOVA 6"
+        ],
+        [
+            "Martha Stewarts Wooking School",
+            "Daddy Dicks Boof Emporium",
+            "Ferals, Fiends, and Firgins",
+            "Keta Kweens and Lentil Beans"
+        ],
+        [
+            "The Neigh Brigade",
+            "Electric Bogaloo",
+            "AVOSQUADO",
+            "Camp Schwifty!",
+            "Feral Chickens "
+        ],
+        [
+            "Camp Magic Conch",
+            "FACEMELT FAM",
+            "wookies IYKYK",
+            "Camp Whippet Out"
+        ],
+        [
+            "PIZZA PLANET",
+            "Camp Nosbulla",
+            "P$$y Suckaz",
+            "Fabtastic Funkonaut's",
+            "flAMIGOS"
+        ],
+        [
+            "EternalVibeTribe",
+            "Boofa Troopas",
+            "Camp Boofs 'n Cats",
+            "Dude, where's my Chris?"
+        ],
+        [
+            "Camp Kind Neighbors",
+            "Street Rat Gang",
+            "Shock Flock",
+            "Wooky Wonka and the Crackhead Factory",
+            "an escargatoire of snails",
+            "WE OUT HERE!"
+        ],
+        [
+            "Camp Pandamonium",
+            "Bojack does the Electric Slide",
+            "Sloths United",
+            "Bubble Gang",
+            "Are you a real fan?",
+            "Squirt Squad"
+        ],
+        [
+            "Roll Modelz ",
+            "Silly Geese Police",
+            "Pizza Gang",
+            "The K-yoshi Warriors of Boof Sing Bae",
+            "Electric Pissers",
+            "Dubsteppas"
+        ],
+        [
+            "William York",
+            "Samuel Gomez",
+            "Camp No Training Wheelz",
+            "Boomin n' Goofin",
+            "Camp Sup Sau"
+        ],
+        [
+            "Bippity Boppity Boof",
+            "Gangsta's Paradise",
+            "Camp Bean Sprouts",
+            "In Crust We Trust"
+        ],
+        [
+            "Shroomie Tunes",
+            "Panda Tribe",
+            "Don Juan Doobiers",
+            "Midlife Hypeness",
+            "Horsesmiths Village",
+            "Bills Mafia",
+            "ICT Rave Crew EF"
+        ],
+        [
+            "Bob Squad",
+            "Rave Boys and Girls Scouts of Rothbury",
+            "Babe, do you have my molly?",
+            "Cabbage Corp.",
+            "Camp Baby Kyle",
+            "#notmycockring"
+        ],
+        [
+            "Magical Mustard Magicians",
+            "Camp Slap the Bag",
+            "Camp Build A Wook",
+            "CAMP VIBE TRIBE",
+            "Ride the Pony"
+        ],
+        [
+            "The Degen Justice League",
+            "Fun In The Sun",
+            "Camp Kampington",
+            "The T Is For ",
+            "One Day Dipsters",
+            "The Boofenshmirtzs"
+        ],
+        [
+            "K-Hole Kauldron",
+            "Hot liquor and warm shrimp",
+            "F@#$ YOU I'M A WIZARD",
+            "Camp: Somebody Pick A F*cking Name",
+            "Rave Fam Estates"
+        ],
+        [
+            "gary zhao",
+            "Ethically Sourced Sluts",
+            "Gremtown",
+            "Colorado Love Company",
+            "The Forest Dwellers",
+            "House Hooligans & the Bass Brigade"
+        ],
+        [
+            "Mt. Ketaminjaro",
+            "Level 9 Silly Geese",
+            "Camp Tittysprinkles",
+            "KETAMINE KOWGURLS"
+        ],
+        [
+            "The Mushroom Kingdom",
+            "Mommy Milkers",
+            "Drury Lane",
+            "Kayuga",
+            "Cabbage Pash Kids"
+        ],
+        [
+            "Boofstreet Boys",
+            "Biscuits and Ravey",
+            "Todd's Marbles",
+            "CAMP TRASH PANDA",
+            "Deems Kingdom"
+        ],
+        [
+            "BuffaHOES",
+            "Ghosts of Serotonins Past",
+            "too broke for good life",
+            "Disco Ducks",
+            "Kevin Quillen"
+        ],
+        [
+            "Bikini Bottom B00ty Blasters",
+            "Camp Cern Derg",
+            "Camp Greendale",
+            "Products of D.A.R.E.",
+            "Womp Wizards",
+            "Coreys Belly Slappers"
+        ],
+        [
+            "Scholastic Wook Fair",
+            "Space Camp",
+            "Nicholas Pogrebneak",
+            "The Marvelous Misfits",
+            "Camp Weird",
+            "Forest Fish :)"
+        ],
+        [
+            "Swamp Squad",
+            "Dr. Dres Dab Lab",
+            "ANTHONY Sayenko",
+            "Fabulous Flock of the Forest",
+            "PeRF in the Mush-Room",
+            "BCD Rave Fam"
+        ],
+        [
+            "LOSTINTHEWOODSH3",
+            "YEET ME THROUGH SPACE",
+            "GOOD VIBE TRIBE",
+            "Cynefin",
+            "pArTy PeOpLe",
+            "Sauce Squad"
+        ],
+        [
+            "Camp Buttstuff",
+            "CAMP NANNERS",
+            "Peace, Love and Wubs",
+            "Camp Milk",
+            "Employees of the Month",
+            "Outtie Slayas",
+            "Camp Prison"
+        ],
+        [
+            "Daddy Den",
+            "The Dancing Lobsters",
+            "K is for Koala",
+            "Tortugas",
+            "My Friends Never Die"
+        ],
+        [
+            "Camp Get Weird",
+            "No Very Poor Avatars",
+            "Big Beef Bouillon",
+            "Moon Jellies",
+            "HornyHours",
+            "Banana Bois b2b Chedda Mommas",
+            "the entire bee movie script"
+        ]
+    ],
+    "CampLengths": [
+        [
+            151.0
+        ],
+        [
+            87.0,
+            63.0
+        ],
+        [
+            70.0,
+            80.0
+        ],
+        [
+            87.0,
+            63.0
+        ],
+        [
+            102.0,
+            49.0
+        ],
+        [
+            46.0,
+            104.0
+        ],
+        [
+            61.0,
+            90.0
+        ],
+        [
+            92.0,
+            58.0
+        ],
+        [
+            70.0,
+            80.0
+        ],
+        [
+            75.0,
+            75.0
+        ],
+        [
+            41.0,
+            68.0,
+            58.0,
+            53.0
+        ],
+        [
+            90.0,
+            85.0,
+            44.0
+        ],
+        [
+            131.0,
+            44.0,
+            44.0
+        ],
+        [
+            63.0,
+            34.0,
+            39.0,
+            83.0
+        ],
+        [
+            119.0,
+            66.0,
+            34.0
+        ],
+        [
+            65.0,
+            36.0,
+            53.0,
+            66.0
+        ],
+        [
+            102.0,
+            68.0,
+            49.0
+        ],
+        [
+            65.0,
+            58.0,
+            60.0,
+            37.0
+        ],
+        [
+            34.0,
+            82.0,
+            63.0,
+            41.0
+        ],
+        [
+            48.0,
+            48.0,
+            41.0,
+            83.0
+        ],
+        [
+            49.0,
+            109.0,
+            61.0
+        ],
+        [
+            136.0,
+            49.0,
+            34.0
+        ],
+        [
+            39.0,
+            34.0,
+            36.0,
+            111.0
+        ],
+        [
+            58.0,
+            37.0,
+            46.0,
+            78.0
+        ],
+        [
+            49.0,
+            41.0,
+            51.0,
+            78.0
+        ],
+        [
+            65.0,
+            37.0,
+            63.0,
+            54.0
+        ],
+        [
+            46.0,
+            53.0,
+            121.0
+        ],
+        [
+            88.0,
+            48.0,
+            34.0,
+            51.0
+        ],
+        [
+            58.0,
+            61.0,
+            51.0,
+            49.0
+        ],
+        [
+            48.0,
+            172.0
+        ],
+        [
+            41.0,
+            58.0,
+            48.0,
+            39.0,
+            34.0
+        ],
+        [
+            23.0,
+            32.0,
+            27.0,
+            66.0
+        ],
+        [
+            95.0,
+            51.0,
+            73.0,
+            54.0,
+            41.0
+        ],
+        [
+            80.0,
+            129.0,
+            36.0,
+            70.0
+        ],
+        [
+            36.0,
+            70.0,
+            56.0,
+            36.0,
+            117.0
+        ],
+        [
+            129.0,
+            53.0,
+            63.0,
+            70.0
+        ],
+        [
+            54.0,
+            41.0,
+            48.0,
+            58.0,
+            34.0,
+            80.0
+        ],
+        [
+            82.0,
+            63.0,
+            36.0,
+            48.0,
+            46.0,
+            41.0
+        ],
+        [
+            54.0,
+            34.0,
+            41.0,
+            75.0,
+            61.0,
+            49.0
+        ],
+        [
+            58.0,
+            41.0,
+            54.0,
+            70.0,
+            94.0
+        ],
+        [
+            133.0,
+            85.0,
+            43.0,
+            54.0
+        ],
+        [
+            34.0,
+            34.0,
+            34.0,
+            83.0,
+            41.0,
+            41.0,
+            48.0
+        ],
+        [
+            43.0,
+            83.0,
+            36.0,
+            56.0,
+            60.0,
+            37.0
+        ],
+        [
+            39.0,
+            73.0,
+            60.0,
+            70.0,
+            75.0
+        ],
+        [
+            37.0,
+            70.0,
+            82.0,
+            26.0,
+            39.0,
+            63.0
+        ],
+        [
+            34.0,
+            39.0,
+            126.0,
+            82.0,
+            34.0
+        ],
+        [
+            22.0,
+            58.0,
+            49.0,
+            88.0,
+            48.0,
+            51.0
+        ],
+        [
+            87.0,
+            46.0,
+            68.0,
+            114.0
+        ],
+        [
+            44.0,
+            56.0,
+            66.0,
+            39.0,
+            111.0
+        ],
+        [
+            34.0,
+            56.0,
+            34.0,
+            133.0,
+            58.0
+        ],
+        [
+            36.0,
+            112.0,
+            36.0,
+            51.0,
+            80.0
+        ],
+        [
+            41.0,
+            83.0,
+            36.0,
+            82.0,
+            26.0,
+            49.0
+        ],
+        [
+            43.0,
+            43.0,
+            80.0,
+            63.0,
+            53.0,
+            36.0
+        ],
+        [
+            36.0,
+            39.0,
+            39.0,
+            78.0,
+            80.0,
+            43.0
+        ],
+        [
+            35.0,
+            33.0,
+            60.0,
+            28.0,
+            23.0,
+            41.0
+        ],
+        [
+            23.0,
+            23.0,
+            32.0,
+            48.0,
+            37.0,
+            31.0,
+            28.0
+        ],
+        [
+            33.0,
+            36.0,
+            46.0,
+            51.0,
+            149.0
+        ],
+        [
+            28.0,
+            34.0,
+            23.0,
+            43.0,
+            29.0,
+            94.0,
+            63.0
+        ],
+        [
+            151.0
+        ],
+        [
+            87.0,
+            63.0
+        ],
+        [
+            70.0,
+            80.0
+        ],
+        [
+            87.0,
+            63.0
+        ],
+        [
+            102.0,
+            49.0
+        ],
+        [
+            46.0,
+            104.0
+        ],
+        [
+            61.0,
+            90.0
+        ],
+        [
+            92.0,
+            58.0
+        ],
+        [
+            70.0,
+            80.0
+        ],
+        [
+            75.0,
+            75.0
+        ],
+        [
+            41.0,
+            68.0,
+            58.0,
+            53.0
+        ],
+        [
+            90.0,
+            85.0,
+            44.0
+        ],
+        [
+            131.0,
+            44.0,
+            44.0
+        ],
+        [
+            63.0,
+            34.0,
+            39.0,
+            83.0
+        ],
+        [
+            119.0,
+            66.0,
+            34.0
+        ],
+        [
+            65.0,
+            36.0,
+            53.0,
+            66.0
+        ],
+        [
+            102.0,
+            68.0,
+            49.0
+        ],
+        [
+            65.0,
+            58.0,
+            60.0,
+            37.0
+        ],
+        [
+            34.0,
+            82.0,
+            63.0,
+            41.0
+        ],
+        [
+            48.0,
+            48.0,
+            41.0,
+            83.0
+        ],
+        [
+            49.0,
+            109.0,
+            61.0
+        ],
+        [
+            136.0,
+            49.0,
+            34.0
+        ],
+        [
+            39.0,
+            34.0,
+            36.0,
+            111.0
+        ],
+        [
+            58.0,
+            37.0,
+            46.0,
+            78.0
+        ],
+        [
+            49.0,
+            41.0,
+            51.0,
+            78.0
+        ],
+        [
+            65.0,
+            37.0,
+            63.0,
+            54.0
+        ],
+        [
+            46.0,
+            53.0,
+            121.0
+        ],
+        [
+            88.0,
+            48.0,
+            34.0,
+            51.0
+        ],
+        [
+            58.0,
+            61.0,
+            51.0,
+            49.0
+        ],
+        [
+            48.0,
+            172.0
+        ],
+        [
+            41.0,
+            58.0,
+            48.0,
+            39.0,
+            34.0
+        ],
+        [
+            23.0,
+            32.0,
+            27.0,
+            66.0
+        ],
+        [
+            95.0,
+            51.0,
+            73.0,
+            54.0,
+            41.0
+        ],
+        [
+            80.0,
+            129.0,
+            36.0,
+            70.0
+        ],
+        [
+            36.0,
+            70.0,
+            56.0,
+            36.0,
+            117.0
+        ],
+        [
+            129.0,
+            53.0,
+            63.0,
+            70.0
+        ],
+        [
+            54.0,
+            41.0,
+            48.0,
+            58.0,
+            34.0,
+            80.0
+        ],
+        [
+            82.0,
+            63.0,
+            36.0,
+            48.0,
+            46.0,
+            41.0
+        ],
+        [
+            54.0,
+            34.0,
+            41.0,
+            75.0,
+            61.0,
+            49.0
+        ],
+        [
+            58.0,
+            41.0,
+            54.0,
+            70.0,
+            94.0
+        ],
+        [
+            133.0,
+            85.0,
+            43.0,
+            54.0
+        ],
+        [
+            34.0,
+            34.0,
+            34.0,
+            83.0,
+            41.0,
+            41.0,
+            48.0
+        ],
+        [
+            43.0,
+            83.0,
+            36.0,
+            56.0,
+            60.0,
+            37.0
+        ],
+        [
+            39.0,
+            73.0,
+            60.0,
+            70.0,
+            75.0
+        ],
+        [
+            37.0,
+            70.0,
+            82.0,
+            26.0,
+            39.0,
+            63.0
+        ],
+        [
+            34.0,
+            39.0,
+            126.0,
+            82.0,
+            34.0
+        ],
+        [
+            22.0,
+            58.0,
+            49.0,
+            88.0,
+            48.0,
+            51.0
+        ],
+        [
+            87.0,
+            46.0,
+            68.0,
+            114.0
+        ],
+        [
+            44.0,
+            56.0,
+            66.0,
+            39.0,
+            111.0
+        ],
+        [
+            34.0,
+            56.0,
+            34.0,
+            133.0,
+            58.0
+        ],
+        [
+            36.0,
+            112.0,
+            36.0,
+            51.0,
+            80.0
+        ],
+        [
+            41.0,
+            83.0,
+            36.0,
+            82.0,
+            26.0,
+            49.0
+        ],
+        [
+            43.0,
+            43.0,
+            80.0,
+            63.0,
+            53.0,
+            36.0
+        ],
+        [
+            36.0,
+            39.0,
+            39.0,
+            78.0,
+            80.0,
+            43.0
+        ],
+        [
+            35.0,
+            33.0,
+            60.0,
+            28.0,
+            23.0,
+            41.0
+        ],
+        [
+            23.0,
+            23.0,
+            32.0,
+            48.0,
+            37.0,
+            31.0,
+            28.0
+        ],
+        [
+            33.0,
+            36.0,
+            46.0,
+            51.0,
+            149.0
+        ],
+        [
+            28.0,
+            34.0,
+            23.0,
+            43.0,
+            29.0,
+            94.0,
+            63.0
+        ]
+    ]
+}

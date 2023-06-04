@@ -1,12 +1,9 @@
 import random
-import json
 
-global inputData
-with open('InputData.json', 'r') as f:
-  inputData = json.load(f)
+
 class CampSorter:
 
-    def __init__(self, maxAttempts = 10000, increment = 5, boundsDifStart = 0, trysPerSection = 25):
+    def __init__(self, maxAttempts = 10000, increment = 5, boundsDifStart = 0, trysPerSection = 25, inputData={}):
         campdata = list(inputData['CampSectionData'].values())
         self.maxAttempts = maxAttempts
         self.increment = increment
@@ -16,14 +13,15 @@ class CampSorter:
         self.pieces = list(inputData["Camps"].values())
         self.campSizeKeys = self.pieces[:]
         self.camps =  list(inputData["Camps"].keys())
-        self.sections = [d['size'] for d in campdata]
+        self.sectionSizes = [d['size'] for d in campdata]
 
-        self.sectionKeys = self.sections[:]
+        self.sectionKeys = self.sectionSizes[:] #section sizes are later mapped to the section
+
         self.sectionNames = list(inputData["CampSectionData"].keys())
         self.sectionWidths =  [d['width'] for d in campdata]
 
-        self.sectionSolutions = [[] for _ in range(len(self.sections))]
-        self.campsSolutions = [[] for _ in range(len(self.sections))]
+        self.sectionSolutions = [[] for _ in range(len(self.sectionSizes))]
+        self.campsSolutions = [[] for _ in range(len(self.sectionSizes))]
         self.campLengthsSolutions = []
 
         self.sectionsSortedNames = []
@@ -31,9 +29,9 @@ class CampSorter:
 
         self.dif = []
 
-        self.sections.sort()#sections are solved from smallest to biggest to decrease chance of unsolvable final section
+        self.sectionSizes.sort()#sectionSizes are solved from smallest to biggest to decrease chance of unsolvable final section
         # Sorts Section Names and Widths lists
-        for section in self.sections:
+        for section in self.sectionSizes:
             for i in range(len(self.sectionKeys)):
                 if self.sectionKeys[i]==section:
                     self.sectionsSortedNames.append(self.sectionNames[i])
@@ -43,7 +41,6 @@ class CampSorter:
                     del self.sectionWidths[i]
                     break
 
-#---------------Begin Function Declarations------------------
 #trys to find fit for a section with the campsite self.pieces
     def fit(self, sectionSize, LB, UB, maxNum,minNum=1):
         solution = []
@@ -72,7 +69,7 @@ class CampSorter:
     def findSectionFit(self, position):
         x = 0
         attempt = 1
-        sectionSize = self.sections[position]
+        sectionSize = self.sectionSizes[position]
 
         s = []
         self.sectionsRemaining = 0
@@ -80,7 +77,7 @@ class CampSorter:
         for section in self.sectionSolutions:
             if section ==[]: self.sectionsRemaining+=1
 
-        targetDif = (sum(self.pieces)-sum(self.sections[position:]))/self.sectionsRemaining
+        targetDif = (sum(self.pieces)-sum(self.sectionSizes[position:]))/self.sectionsRemaining
 
         LB = (targetDif) - self.boundsDifStart
         UB = (targetDif) + self.boundsDifStart
@@ -166,7 +163,7 @@ class CampSorter:
         print("\nPieces remaining: ")
         print(self.pieces)
         print("\nThe spread is: " + str(spread))
-        if(self.pieces!=[]): print("\nUnsolved self.sections. Run program again")
+        if(self.pieces!=[]): print("\nUnsolved self.sectionSizes. Run program again")
 
         filename = "Solutions.csv"
         f= open(filename, "w")

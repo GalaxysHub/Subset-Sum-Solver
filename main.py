@@ -1,7 +1,15 @@
 from SubsetSumSolver import CampSorter
 
 import json
-import formatInput
+from formatInput import FormatInputData
+
+group_camps = 'EF2023 - Camping Groups.csv'
+camp_section = 'EF2023 - Camp Sections.csv'
+
+global inputData
+with open('InputData.json', 'r') as f:
+  inputData = json.load(f)
+
 
 def writeJsonSolution(solution):
     data = {
@@ -24,11 +32,14 @@ def run():
     initBounds = 5
     trysPerSect = 50
 
-    formatInput()
+
+    formatter = FormatInputData(camp_section, group_camps)
+    formatter.formatInput()
+    inputData = formatter.getFormattedInput()
     #Generates all solutions and picks best one
     for i in range(0,numSolToGen,1):
         print("\nSolving solution "+str(i+1)+" of "+str(numSolToGen))
-        solution = CampSorter(maxIter,inc,initBounds,trysPerSect)
+        solution = CampSorter(maxIter,inc,initBounds,trysPerSect,inputData)
         fullSolution = solution.generateAndReturnSolution()
         print("Spread: " + str(fullSolution[0]))
         print("Unsorted pieces: " + str(fullSolution[1]))
