@@ -4,7 +4,6 @@ import string
 
 
 class FormatInputData:
-
     def __init__(self, camp_section, group_camps):
         self.formatedInputData = {}
         self.totalArea = 0

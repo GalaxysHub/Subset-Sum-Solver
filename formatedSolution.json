@@ -1,1207 +1,1197 @@
 {
-    "A1-A": {
-        "name": "Boofy Goobers",
-        "length": 58,
-        "width": 100
-    },
-    "A1-B": {
-        "name": "Bippity Boppity Boof",
-        "length": 133,
-        "width": 100
-    },
-    "A1-C": {
-        "name": "an escargatoire of snails",
-        "length": 34,
-        "width": 100
-    },
-    "A1-D": {
-        "name": "GOOD VIBE TRIBE",
-        "length": 90,
-        "width": 100
-    },
-    "A2-A": {
-        "name": "Nicholas Pogrebneak",
-        "length": 80,
-        "width": 100
-    },
-    "A2-B": {
-        "name": "FraggleKroc",
-        "length": 65,
-        "width": 99
-    },
-    "A2-C": {
-        "name": "Silly Geese Police",
-        "length": 34,
-        "width": 100
-    },
-    "A2-D": {
-        "name": "Daddy Dicks Boof Emporium",
-        "length": 48,
-        "width": 99
-    },
-    "A2-E": {
-        "name": "Roll Modelz ",
-        "length": 54,
-        "width": 101
-    },
-    "A2-F": {
-        "name": "Shroomie Tunes",
-        "length": 34,
-        "width": 100
-    },
-    "A3-A": {
-        "name": "Hot liquor and warm shrimp",
-        "length": 39,
-        "width": 100
-    },
-    "A3-B": {
-        "name": "CAMP TRASH PANDA",
-        "length": 133,
-        "width": 100
-    },
-    "A3-C": {
-        "name": "The Tab Lab",
-        "length": 58,
-        "width": 100
-    },
-    "A3-D": {
-        "name": "Fabtastic Funkonaut's",
-        "length": 36,
-        "width": 99
-    },
-    "A3-E": {
-        "name": "Gremtown",
-        "length": 49,
-        "width": 101
-    },
-    "A4-A": {
-        "name": "Cream Team 6",
-        "length": 37,
-        "width": 101
-    },
-    "A4-B": {
-        "name": "Panda Tribe",
-        "length": 34,
-        "width": 100
-    },
-    "A4-C": {
-        "name": "Moon Jellies",
-        "length": 65,
-        "width": 99
-    },
-    "A4-D": {
-        "name": "Sproutin About",
-        "length": 111,
-        "width": 100
-    },
-    "A4-E": {
-        "name": "BOOF WELLINGTON",
-        "length": 68,
-        "width": 100
-    },
-    "A5-A": {
-        "name": "Don Juan Doobiers",
-        "length": 34,
-        "width": 100
-    },
-    "A5-B": {
-        "name": "SQUAAA",
-        "length": 44,
-        "width": 100
-    },
-    "A5-C": {
-        "name": "Shock Flock",
-        "length": 48,
-        "width": 99
-    },
-    "A5-D": {
-        "name": "Kayuga",
-        "length": 39,
-        "width": 100
-    },
-    "A5-E": {
-        "name": "The Floor People",
-        "length": 44,
-        "width": 100
-    },
-    "A5-F": {
-        "name": "Peacewaves",
-        "length": 61,
-        "width": 100
-    },
-    "A5-G": {
-        "name": "joy aberg",
-        "length": 44,
-        "width": 100
-    },
-    "A6-A": {
-        "name": "BCD Rave Fam",
-        "length": 43,
-        "width": 99
-    },
-    "A6-B": {
-        "name": "Giggles N Jiggles",
-        "length": 83,
-        "width": 100
-    },
-    "A6-C": {
-        "name": "Camp Hell Yeah",
-        "length": 53,
-        "width": 99
-    },
-    "A6-D": {
-        "name": "Electric Pissers",
-        "length": 61,
-        "width": 100
-    },
-    "A6-E": {
-        "name": "Ride the Pony",
-        "length": 75,
-        "width": 100
-    },
-    "A7-A": {
-        "name": "Coreys Belly Slappers",
-        "length": 49,
-        "width": 101
-    },
-    "A7-B": {
-        "name": "Banana Bois b2b Chedda Mommas",
-        "length": 141,
-        "width": 100
-    },
-    "A7-C": {
-        "name": "Kilos in the Jungle",
-        "length": 53,
-        "width": 99
-    },
-    "A7-D": {
-        "name": "Camp Milk",
-        "length": 71,
-        "width": 101
-    },
-    "A8-A": {
-        "name": "Vibe Check",
-        "length": 66,
-        "width": 100
-    },
-    "A8-B": {
-        "name": "Grilled Cheese and B!tches",
-        "length": 78,
-        "width": 100
-    },
-    "A8-C": {
-        "name": "Rainbow Unicorn Farts",
-        "length": 37,
-        "width": 101
-    },
-    "A8-D": {
-        "name": "Cooked Wooks",
-        "length": 53,
-        "width": 99
-    },
-    "A8-E": {
-        "name": "Pashmina Spaceship",
-        "length": 44,
-        "width": 100
-    },
-    "A8-F": {
-        "name": "#notmycockring",
-        "length": 37,
-        "width": 101
-    },
-    "A9-A": {
-        "name": "flAMIGOS",
-        "length": 117,
-        "width": 100
-    },
-    "A9-B": {
-        "name": "Boomin n' Goofin",
-        "length": 70,
-        "width": 100
-    },
-    "A9-C": {
-        "name": "Level 9 Silly Geese",
-        "length": 46,
-        "width": 100
-    },
-    "A9-D": {
-        "name": "Camp Kampington",
-        "length": 82,
-        "width": 100
-    },
-    "A10-A": {
-        "name": "Bojack does the Electric Slide",
-        "length": 63,
-        "width": 100
-    },
-    "A10-B": {
-        "name": "The Mushroom Kingdom",
-        "length": 44,
-        "width": 100
-    },
-    "A10-C": {
-        "name": "Mommy Milkers",
-        "length": 56,
-        "width": 100
-    },
-    "A10-D": {
-        "name": "Camp No Training Wheelz",
-        "length": 54,
-        "width": 101
-    },
-    "A10-E": {
-        "name": "The Painted Taint",
-        "length": 51,
-        "width": 100
-    },
-    "A10-F": {
-        "name": "Outtie Slayas",
-        "length": 46,
-        "width": 100
-    },
-    "A11-A": {
-        "name": "Sloths United",
-        "length": 36,
-        "width": 99
-    },
-    "A11-B": {
-        "name": "CAMP VIBE TRIBE",
-        "length": 70,
-        "width": 100
-    },
-    "A11-C": {
-        "name": "Camp: Somebody Pick A F*cking Name",
-        "length": 82,
-        "width": 100
-    },
-    "A11-D": {
-        "name": "FACEMELT FAM",
-        "length": 129,
-        "width": 100
-    },
-    "A12-A": {
-        "name": "THE STABLES",
-        "length": 51,
-        "width": 100
-    },
-    "A12-B": {
-        "name": "Dr. Dres Dab Lab",
-        "length": 39,
-        "width": 100
-    },
-    "A12-C": {
-        "name": "Electric Bogaloo",
-        "length": 51,
-        "width": 100
-    },
-    "A12-D": {
-        "name": "K-Hole Kauldron",
-        "length": 34,
-        "width": 100
-    },
-    "A12-E": {
-        "name": "Wooky Wonka and the Crackhead Factory",
-        "length": 58,
-        "width": 100
-    },
-    "A12-F": {
-        "name": "Ferals, Fiends, and Firgins",
-        "length": 41,
-        "width": 100
-    },
-    "A12-G": {
-        "name": "Feral Chickens ",
-        "length": 41,
-        "width": 100
-    },
-    "A13-A": {
-        "name": "Cynefin",
-        "length": 43,
-        "width": 99
-    },
-    "A13-B": {
-        "name": "The Degen Justice League",
-        "length": 37,
-        "width": 101
-    },
-    "A13-C": {
-        "name": "Street Rat Gang",
-        "length": 41,
-        "width": 100
-    },
-    "A13-D": {
-        "name": "In Crust We Trust",
-        "length": 54,
-        "width": 101
-    },
-    "A13-E": {
-        "name": "Boofa Troopas",
-        "length": 53,
-        "width": 99
-    },
-    "A13-F": {
-        "name": "Electric Sofa",
-        "length": 88,
-        "width": 100
-    },
-    "A14-A": {
-        "name": "Babe, do you have my molly?",
-        "length": 36,
-        "width": 99
-    },
-    "A14-B": {
-        "name": "YEET ME THROUGH SPACE",
-        "length": 49,
-        "width": 101
-    },
-    "A14-C": {
-        "name": "Bufus Du Roll",
-        "length": 172,
-        "width": 100
-    },
-    "A14-D": {
-        "name": "William York",
-        "length": 58,
-        "width": 100
-    },
-    "A15-A": {
-        "name": "Rave Fam Estates",
-        "length": 34,
-        "width": 100
-    },
-    "A15-B": {
-        "name": "Camp Weird",
-        "length": 53,
-        "width": 99
-    },
-    "A15-C": {
-        "name": "HornyHours",
-        "length": 44,
-        "width": 100
-    },
-    "A15-D": {
-        "name": "BuffaHOES",
-        "length": 36,
-        "width": 99
-    },
-    "A15-E": {
-        "name": "Sauce Squad",
-        "length": 61,
-        "width": 100
-    },
-    "A15-F": {
-        "name": "Mt. Ketaminjaro",
-        "length": 87,
-        "width": 100
-    },
-    "A16-A": {
-        "name": "The Neigh Brigade",
-        "length": 95,
-        "width": 100
-    },
-    "A16-B": {
-        "name": "Get Your Sh!t Together",
-        "length": 102,
-        "width": 100
-    },
-    "A16-C": {
-        "name": "Wookakke",
-        "length": 119,
-        "width": 100
-    },
-    "A17-A": {
-        "name": "Fun In The Sun",
-        "length": 70,
-        "width": 100
-    },
-    "A17-B": {
-        "name": "Bubble Gang",
-        "length": 48,
-        "width": 99
-    },
-    "A17-C": {
-        "name": "K is for Koala",
-        "length": 70,
-        "width": 100
-    },
-    "A17-D": {
-        "name": "Colorado Love Company",
-        "length": 88,
-        "width": 100
-    },
-    "A17-E": {
-        "name": "Squirt Squad",
-        "length": 41,
-        "width": 100
-    },
-    "A18-A": {
-        "name": "Drury Lane",
-        "length": 66,
-        "width": 100
-    },
-    "A18-B": {
-        "name": "too broke for good life",
-        "length": 36,
-        "width": 99
-    },
-    "A18-C": {
-        "name": "Midlife Hypeness",
-        "length": 83,
-        "width": 100
-    },
-    "A18-D": {
-        "name": "Boofstreet Boys",
-        "length": 34,
-        "width": 100
-    },
-    "A18-E": {
-        "name": "the entire bee movie script",
-        "length": 95,
-        "width": 100
-    },
-    "A19-A": {
-        "name": "Ethically Sourced Sluts",
-        "length": 58,
-        "width": 100
-    },
-    "A19-B": {
-        "name": "Todd's Marbles",
-        "length": 34,
-        "width": 100
-    },
-    "A19-C": {
-        "name": "Deems Kingdom",
-        "length": 58,
-        "width": 100
-    },
-    "A19-D": {
-        "name": "Pizza Gang",
-        "length": 41,
-        "width": 100
-    },
-    "A19-E": {
-        "name": "Fabulous Flock of the Forest",
-        "length": 78,
-        "width": 100
-    },
-    "A19-F": {
-        "name": "ICT Rave Crew EF",
-        "length": 48,
-        "width": 99
-    },
-    "A20-A": {
-        "name": "The Forest Dwellers",
-        "length": 48,
-        "width": 99
-    },
-    "A20-B": {
-        "name": "Rave Boys and Girls Scouts of Rothbury",
-        "length": 83,
-        "width": 100
-    },
-    "A20-C": {
-        "name": "Camp Greendale",
-        "length": 36,
-        "width": 99
-    },
-    "A20-D": {
-        "name": "Camp Sup Sau",
-        "length": 94,
-        "width": 100
-    },
-    "A20-E": {
-        "name": "The Dancing Lobsters",
-        "length": 54,
-        "width": 101
-    },
-    "A21-A": {
-        "name": "House Hooligans & the Bass Brigade",
-        "length": 51,
-        "width": 100
-    },
-    "A21-B": {
-        "name": "F@#$ YOU I'M A WIZARD",
-        "length": 126,
-        "width": 100
-    },
-    "A21-C": {
-        "name": "LOSTINTHEWOODSH3",
-        "length": 53,
-        "width": 99
-    },
-    "A21-D": {
-        "name": "Disco Ducks",
-        "length": 51,
-        "width": 100
-    },
-    "A21-E": {
-        "name": "Forest Fish :)",
-        "length": 36,
-        "width": 99
-    },
-    "A22-A": {
-        "name": "Peace, Love and Wubs",
-        "length": 48,
-        "width": 99
-    },
-    "A22-B": {
-        "name": "EternalVibeTribe",
-        "length": 129,
-        "width": 100
-    },
-    "A22-C": {
-        "name": "Biscuits and Ravey",
-        "length": 56,
-        "width": 100
-    },
-    "A22-D": {
-        "name": "Products of D.A.R.E.",
-        "length": 82,
-        "width": 100
-    },
-    "B1-A": {
-        "name": "Camp Nosbulla",
-        "length": 70,
-        "width": 100
-    },
-    "B1-B": {
-        "name": "Feral Buellers Days Off",
-        "length": 41,
-        "width": 100
-    },
-    "B1-C": {
-        "name": "Sesame Skeeet",
-        "length": 109,
-        "width": 100
-    },
-    "B2-A": {
-        "name": "Space Goats",
-        "length": 39,
-        "width": 100
-    },
-    "B2-B": {
-        "name": "Dr. Rackwood & Friends",
-        "length": 41,
-        "width": 100
-    },
-    "B2-C": {
-        "name": "Electric Cowboy Collective",
-        "length": 34,
-        "width": 100
-    },
-    "B2-D": {
-        "name": "Kamp Kazoo",
-        "length": 65,
-        "width": 99
-    },
-    "B2-E": {
-        "name": "Behrens' Big Booty Bach",
-        "length": 41,
-        "width": 100
-    },
-    "B3-A": {
-        "name": "CAMP FRAMP",
-        "length": 51,
-        "width": 100
-    },
-    "B3-B": {
-        "name": "Texxxas Fuxxx",
-        "length": 53,
-        "width": 99
-    },
-    "B3-C": {
-        "name": "Coochie Corral Boofs Peepy",
-        "length": 53,
-        "width": 99
-    },
-    "B3-D": {
-        "name": "Cheeky Squeaky Squad",
-        "length": 63,
-        "width": 100
-    },
-    "B4-A": {
-        "name": "P$$y Suckaz",
-        "length": 56,
-        "width": 100
-    },
-    "B4-B": {
-        "name": "Boneless Brother",
-        "length": 63,
-        "width": 100
-    },
-    "B4-C": {
-        "name": "Sherwoo Dhamburger",
-        "length": 46,
-        "width": 100
-    },
-    "B4-D": {
-        "name": "Church Of Tracy",
-        "length": 54,
-        "width": 101
-    },
-    "B5-A": {
-        "name": "The Nest",
-        "length": 61,
-        "width": 100
-    },
-    "B5-B": {
-        "name": "Robert Wayne",
-        "length": 46,
-        "width": 100
-    },
-    "B5-C": {
-        "name": "Are you a real fan?",
-        "length": 46,
-        "width": 100
-    },
-    "B5-D": {
-        "name": "Freak Candy",
-        "length": 34,
-        "width": 100
-    },
-    "B5-E": {
-        "name": "BIKINI BOTTOMLESS",
-        "length": 32,
-        "width": 101
-    },
-    "B6-A": {
-        "name": "Good Life Rejects",
-        "length": 73,
-        "width": 100
-    },
-    "B6-B": {
-        "name": "Quest Totem Crew",
-        "length": 34,
-        "width": 100
-    },
-    "B6-C": {
-        "name": "Dude, where's my Chris?",
-        "length": 70,
-        "width": 100
-    },
-    "B6-D": {
-        "name": "Camp Bean Sprouts",
-        "length": 43,
-        "width": 99
-    },
-    "B7-A": {
-        "name": "What Are You Doing Stepladder?",
-        "length": 63,
-        "width": 100
-    },
-    "B7-B": {
-        "name": "Big Daddy Purp and the Twerps",
-        "length": 63,
-        "width": 100
-    },
-    "B7-C": {
-        "name": "Litty T!tty Festy Committee",
-        "length": 39,
-        "width": 100
-    },
-    "B7-D": {
-        "name": "Camp Schwifty!",
-        "length": 54,
-        "width": 101
-    },
-    "B8-A": {
-        "name": "Keta Kweens and Lentil Beans",
-        "length": 99,
-        "width": 100
-    },
-    "B8-B": {
-        "name": "E4 Avenue",
-        "length": 48,
-        "width": 99
-    },
-    "B8-C": {
-        "name": "Electric Turtles",
-        "length": 34,
-        "width": 100
-    },
-    "B8-D": {
-        "name": "Lost + Found Forest Fairies",
-        "length": 39,
-        "width": 100
-    },
-    "B9-A": {
-        "name": "PIZZA PLANET",
-        "length": 36,
-        "width": 99
-    },
-    "B9-B": {
-        "name": "Wook Wash",
-        "length": 61,
-        "width": 100
-    },
-    "B9-C": {
-        "name": "SL,UT CAMP",
-        "length": 49,
-        "width": 101
-    },
-    "B9-D": {
-        "name": "AVOSQUADO",
-        "length": 73,
-        "width": 100
-    },
-    "B10-A": {
-        "name": "Camp (K)yle",
-        "length": 49,
-        "width": 101
-    },
-    "B10-B": {
-        "name": "Bubba Wumps Horse Rescue and Sanctuary",
-        "length": 49,
-        "width": 101
-    },
-    "B10-C": {
-        "name": "Lunchbox Fam",
-        "length": 121,
-        "width": 100
-    },
-    "B11-A": {
-        "name": "highly flavored",
-        "length": 41,
-        "width": 100
-    },
-    "B11-B": {
-        "name": "Chain Gang",
-        "length": 71,
-        "width": 101
-    },
-    "B11-C": {
-        "name": "Wook Wonderland",
-        "length": 48,
-        "width": 99
-    },
-    "B11-D": {
-        "name": "CAMP SIDEBOOB",
-        "length": 60,
-        "width": 99
-    },
-    "B12-A": {
-        "name": "gary zhao",
-        "length": 22,
-        "width": 100
-    },
-    "B12-B": {
-        "name": "NOEL'S ASS",
-        "length": 85,
-        "width": 100
-    },
-    "B12-C": {
-        "name": "Ghosts of Serotonins Past",
-        "length": 112,
-        "width": 100
-    },
-    "B13-A": {
-        "name": "Meet me at Griz",
-        "length": 49,
-        "width": 101
-    },
-    "B13-B": {
-        "name": "Camp Wurder",
-        "length": 61,
-        "width": 100
-    },
-    "B13-C": {
-        "name": "KosmiK Brownies",
-        "length": 49,
-        "width": 101
-    },
-    "B13-D": {
-        "name": "Camp Baby Kyle",
-        "length": 60,
-        "width": 99
-    },
-    "B14-A": {
-        "name": "Bob Squad",
-        "length": 43,
-        "width": 99
-    },
-    "B14-B": {
-        "name": "Womp Rats",
-        "length": 58,
-        "width": 100
-    },
-    "B14-C": {
-        "name": "Camp Magic Conch",
-        "length": 80,
-        "width": 100
-    },
-    "B14-D": {
-        "name": "Magical Mustard Magicians",
-        "length": 39,
-        "width": 100
-    },
-    "B15-A": {
-        "name": "Camp Electrip - Year 5!",
-        "length": 82,
-        "width": 100
-    },
-    "B15-B": {
-        "name": "Dubsteppas",
-        "length": 49,
-        "width": 101
-    },
-    "B15-C": {
-        "name": "Camp Kind Neighbors",
-        "length": 54,
-        "width": 101
-    },
-    "B15-D": {
-        "name": "Mukbang!",
-        "length": 34,
-        "width": 100
-    },
-    "B16-A": {
-        "name": "Flavortown",
-        "length": 34,
-        "width": 100
-    },
-    "B16-B": {
-        "name": "Camp Build A Wook",
-        "length": 60,
-        "width": 99
-    },
-    "B16-C": {
-        "name": "Camp Pandamonium",
-        "length": 82,
-        "width": 100
-    },
-    "B16-D": {
-        "name": "Alvin and the chipmunks",
-        "length": 44,
-        "width": 100
-    },
-    "B17-A": {
-        "name": "I smell Socks & Kandi",
-        "length": 83,
-        "width": 100
-    },
-    "B17-B": {
-        "name": "Yeet Street",
-        "length": 136,
-        "width": 100
-    },
-    "B18-A": {
-        "name": "Camp Boofs 'n Cats",
-        "length": 63,
-        "width": 100
-    },
-    "B18-B": {
-        "name": "PEGASUS NOVA 6",
-        "length": 34,
-        "width": 100
-    },
-    "B18-C": {
-        "name": "WE OUT HERE!",
-        "length": 80,
-        "width": 100
-    },
-    "B18-D": {
-        "name": "Scholastic Wook Fair",
-        "length": 43,
-        "width": 99
-    },
-    "B19-A": {
-        "name": "One Day Dipsters",
-        "length": 39,
-        "width": 100
-    },
-    "B19-B": {
-        "name": "Martha Stewarts Wooking School",
-        "length": 34,
-        "width": 100
-    },
-    "B19-C": {
-        "name": "Cabbage Corp.",
-        "length": 56,
-        "width": 100
-    },
-    "B19-D": {
-        "name": "Camp House Plant",
-        "length": 90,
-        "width": 100
-    },
-    "B20-A": {
-        "name": "The Re-Up Rascals",
-        "length": 48,
-        "width": 99
-    },
-    "B20-B": {
-        "name": "The Shadow People",
-        "length": 131,
-        "width": 100
-    },
-    "B20-C": {
-        "name": "Space Camp",
-        "length": 43,
-        "width": 99
-    },
-    "B21-A": {
-        "name": "nature wh*res",
-        "length": 66,
-        "width": 100
-    },
-    "B21-B": {
-        "name": "Kevin Quillen",
-        "length": 80,
-        "width": 100
-    },
-    "B21-C": {
-        "name": "Camp Slap the Bag",
-        "length": 73,
-        "width": 100
-    },
-    "B22-A": {
-        "name": "The K-yoshi Warriors of Boof Sing Bae",
-        "length": 50,
-        "width": 150
-    },
-    "B22-B": {
-        "name": "The Hug House",
-        "length": 45,
-        "width": 151
-    },
-    "B22-C": {
-        "name": "Flamingos in the Forest",
-        "length": 52,
-        "width": 150
-    },
-    "C1-A": {
-        "name": "Camp Get Weird",
-        "length": 28,
-        "width": 152
-    },
-    "C1-B": {
-        "name": "Camp Buttstuff",
-        "length": 23,
-        "width": 148
-    },
-    "C1-C": {
-        "name": "CAMP NANNERS",
-        "length": 23,
-        "width": 148
-    },
-    "C1-D": {
-        "name": "KETAMINE KOWGURLS",
-        "length": 76,
-        "width": 150
-    },
-    "C1-E": {
-        "name": "Gangsta's Paradise",
-        "length": 57,
-        "width": 149
-    },
-    "C1-F": {
-        "name": "PeRF in the Mush-Room",
-        "length": 53,
-        "width": 151
-    },
-    "C1-G": {
-        "name": "Camp Cern Derg",
-        "length": 56,
-        "width": 149
-    },
-    "C2-A": {
-        "name": "Daddy Den",
-        "length": 33,
-        "width": 149
-    },
-    "C2-B": {
-        "name": "Big Beef Bouillon",
-        "length": 23,
-        "width": 148
-    },
-    "C2-C": {
-        "name": "Bikini Bottom B00ty Blasters",
-        "length": 27,
-        "width": 151
-    },
-    "C2-D": {
-        "name": "The Boofenshmirtzs",
-        "length": 42,
-        "width": 150
-    },
-    "C2-E": {
-        "name": "The Marvelous Misfits",
-        "length": 42,
-        "width": 150
-    },
-    "C2-F": {
-        "name": "My Friends Never Die",
-        "length": 149,
-        "width": 150
-    },
-    "D1-A": {
-        "name": "Camp Prison",
-        "length": 28,
-        "width": 152
-    },
-    "D1-B": {
-        "name": "Samuel Gomez",
-        "length": 27,
-        "width": 151
-    },
-    "D1-C": {
-        "name": "ANTHONY Sayenko",
-        "length": 26,
-        "width": 150
-    },
-    "D1-D": {
-        "name": "pArTy PeOpLe",
-        "length": 23,
-        "width": 148
-    },
-    "D1-E": {
-        "name": "Tortugas",
-        "length": 51,
-        "width": 150
-    },
-    "D1-F": {
-        "name": "Horsesmiths Village",
-        "length": 27,
-        "width": 151
-    },
-    "D1-G": {
-        "name": "Employees of the Month",
-        "length": 37,
-        "width": 152
-    },
-    "D2-A": {
-        "name": "Camp Tittysprinkles",
-        "length": 45,
-        "width": 151
-    },
-    "D2-B": {
-        "name": "Cabbage Pash Kids",
-        "length": 74,
-        "width": 149
-    },
-    "D2-C": {
-        "name": "Swamp Squad",
-        "length": 24,
-        "width": 149
-    },
-    "D2-D": {
-        "name": "Womp Wizards",
-        "length": 17,
-        "width": 150
-    },
-    "D2-E": {
-        "name": "Bills Mafia",
-        "length": 27,
-        "width": 151
-    },
-    "D2-F": {
-        "name": "No Very Poor Avatars",
-        "length": 34,
-        "width": 150
-    },
     "E1-A": {
-        "name": "The T Is For ",
-        "length": 36,
-        "width": 71
+        "name": "Cheeky Squeaky Squad",
+        "length": 47,
+        "width": 70
     },
     "E1-B": {
-        "name": "Astral Adventurers",
-        "length": 53,
-        "width": 71
+        "name": "Electric Sofa",
+        "length": 66,
+        "width": 70
     },
     "E1-C": {
-        "name": "FestiFeet Presents: D*cksquad",
-        "length": 61,
+        "name": "Camp K-Rocked",
+        "length": 37,
         "width": 70
     },
     "E2-A": {
-        "name": "WubbaLubbaDubz Club",
-        "length": 151,
+        "name": "Astral Adventurers",
+        "length": 28,
+        "width": 70
+    },
+    "E2-B": {
+        "name": "KETAMINE KOWGURLS",
+        "length": 85,
+        "width": 70
+    },
+    "E2-C": {
+        "name": "Rave Little Toasters, Part Deuce: Burnt and Buttered",
+        "length": 37,
         "width": 70
     },
     "E3-A": {
-        "name": "Camp Feel My Face",
-        "length": 58,
+        "name": "Cream Team 6",
+        "length": 28,
         "width": 70
     },
     "E3-B": {
-        "name": "wick digglers llc",
-        "length": 92,
+        "name": "FestiFeet Presents: D*cksquad",
+        "length": 32,
         "width": 70
+    },
+    "E3-C": {
+        "name": "Good Life Rejects",
+        "length": 55,
+        "width": 70
+    },
+    "E3-D": {
+        "name": "Sexy Rave Mofos",
+        "length": 36,
+        "width": 69
     },
     "E4-A": {
-        "name": "BBB",
-        "length": 80,
-        "width": 70
+        "name": "Olive Garden: WYHYF",
+        "length": 25,
+        "width": 71
     },
     "E4-B": {
-        "name": "Camp K-Rocked",
-        "length": 70,
+        "name": "Boneless Brother",
+        "length": 47,
         "width": 70
+    },
+    "E4-C": {
+        "name": "Alvin and the chipmunks",
+        "length": 33,
+        "width": 70
+    },
+    "E4-D": {
+        "name": "CAMP SIDEBOOB",
+        "length": 45,
+        "width": 69
     },
     "E5-A": {
-        "name": "Rave Little Toasters, Part Deuce: Burnt and Buttered",
-        "length": 70,
-        "width": 70
+        "name": "Electric Cowboy Collective",
+        "length": 25,
+        "width": 71
     },
     "E5-B": {
-        "name": "Camp Wookery",
-        "length": 80,
-        "width": 70
+        "name": "Freak Candy",
+        "length": 25,
+        "width": 71
+    },
+    "E5-C": {
+        "name": "wick digglers llc",
+        "length": 48,
+        "width": 71
+    },
+    "E5-D": {
+        "name": "Quest Totem Crew",
+        "length": 25,
+        "width": 71
+    },
+    "E5-E": {
+        "name": "Electric Turtles",
+        "length": 25,
+        "width": 71
     },
     "E6-A": {
-        "name": "Duck Squad",
-        "length": 83,
-        "width": 70
+        "name": "Mukbang!",
+        "length": 25,
+        "width": 71
     },
     "E6-B": {
-        "name": "Sexy Rave Mofos",
-        "length": 68,
+        "name": "The K-yoshi Warriors of Boof Sing Bae",
+        "length": 56,
         "width": 70
     },
+    "E6-C": {
+        "name": "Space Goats",
+        "length": 29,
+        "width": 71
+    },
+    "E6-D": {
+        "name": "Texxxas Fuxxx",
+        "length": 39,
+        "width": 71
+    },
     "E7-A": {
-        "name": "The Boof Cottage",
-        "length": 92,
+        "name": "Camp Whippet Out",
+        "length": 52,
         "width": 70
     },
     "E7-B": {
-        "name": "Just Boof It",
-        "length": 58,
+        "name": "CAMP FRAMP",
+        "length": 38,
+        "width": 70
+    },
+    "E7-C": {
+        "name": "Camp Magic Conch",
+        "length": 60,
         "width": 70
     },
     "E8-A": {
-        "name": "Camp Rabbit Hole ",
-        "length": 68,
-        "width": 70
+        "name": "Litty T!tty Festy Committee",
+        "length": 29,
+        "width": 71
     },
     "E8-B": {
-        "name": "Hot n' Heady",
-        "length": 83,
+        "name": "Camp Feel My Face",
+        "length": 31,
+        "width": 69
+    },
+    "E8-C": {
+        "name": "Lunchbox Fam",
+        "length": 90,
         "width": 70
     },
     "E9-A": {
-        "name": "Olive Garden: WYHYF",
-        "length": 49,
-        "width": 69
-    },
-    "E9-B": {
-        "name": "BIGGER SPUNGUS",
-        "length": 51,
+        "name": "flAMIGOS",
+        "length": 88,
         "width": 70
     },
-    "E9-C": {
-        "name": "Tree People",
-        "length": 51,
+    "E9-B": {
+        "name": "I smell Socks & Kandi",
+        "length": 62,
         "width": 70
     },
     "E10-A": {
+        "name": "Just Boof It",
+        "length": 31,
+        "width": 69
+    },
+    "E10-B": {
+        "name": "Sherwoo Dhamburger",
+        "length": 34,
+        "width": 71
+    },
+    "E10-C": {
+        "name": "Camp Bean Sprouts",
+        "length": 32,
+        "width": 70
+    },
+    "E10-D": {
+        "name": "Chain Gang",
+        "length": 53,
+        "width": 71
+    },
+    "E11-A": {
+        "name": "Lost + Found Forest Fairies",
+        "length": 29,
+        "width": 71
+    },
+    "E11-B": {
+        "name": "Flavortown",
+        "length": 25,
+        "width": 71
+    },
+    "E11-C": {
+        "name": "Camp Electrip - Year 5!",
+        "length": 61,
+        "width": 70
+    },
+    "E11-D": {
+        "name": "Robert Wayne",
+        "length": 34,
+        "width": 71
+    },
+    "E12-A": {
+        "name": "Are you a real fan?",
+        "length": 34,
+        "width": 71
+    },
+    "E12-B": {
+        "name": "Rainbow Unicorn Farts",
+        "length": 28,
+        "width": 70
+    },
+    "E12-C": {
+        "name": "Church Of Tracy",
+        "length": 41,
+        "width": 70
+    },
+    "E12-D": {
+        "name": "What Are You Doing Stepladder?",
+        "length": 47,
+        "width": 70
+    },
+    "E13-A": {
+        "name": "PEGASUS NOVA 6",
+        "length": 25,
+        "width": 71
+    },
+    "E13-B": {
+        "name": "The Nest",
+        "length": 46,
+        "width": 70
+    },
+    "E13-C": {
+        "name": "WubbaLubbaDubz Club",
+        "length": 79,
+        "width": 70
+    },
+    "E14-A": {
+        "name": "Camp Nosbulla",
+        "length": 52,
+        "width": 70
+    },
+    "E14-B": {
+        "name": "Camp House Plant",
+        "length": 67,
+        "width": 70
+    },
+    "E14-C": {
+        "name": "Feral Buellers Days Off",
+        "length": 31,
+        "width": 69
+    },
+    "E15-A": {
+        "name": "Dude, where's my Chris?",
+        "length": 52,
+        "width": 70
+    },
+    "E15-B": {
+        "name": "The Painted Taint",
+        "length": 38,
+        "width": 70
+    },
+    "E15-C": {
+        "name": "BIGGER SPUNGUS",
+        "length": 27,
+        "width": 69
+    },
+    "E15-D": {
+        "name": "SQUAAA",
+        "length": 33,
+        "width": 70
+    },
+    "E16-A": {
+        "name": "Bob Squad",
+        "length": 32,
+        "width": 70
+    },
+    "E16-B": {
+        "name": "Magical Mustard Magicians",
+        "length": 29,
+        "width": 71
+    },
+    "E16-C": {
+        "name": "The T Is For ",
+        "length": 19,
+        "width": 70
+    },
+    "E16-D": {
+        "name": "THE STABLES",
+        "length": 38,
+        "width": 70
+    },
+    "E16-E": {
+        "name": "Scholastic Wook Fair",
+        "length": 32,
+        "width": 70
+    },
+    "E17-A": {
+        "name": "Camp Schwifty!",
+        "length": 41,
+        "width": 70
+    },
+    "E17-B": {
+        "name": "NOEL'S ASS",
+        "length": 64,
+        "width": 70
+    },
+    "E17-C": {
+        "name": "Wook Wash",
+        "length": 46,
+        "width": 70
+    },
+    "E18-A": {
+        "name": "Coochie Corral Boofs Peepy",
+        "length": 39,
+        "width": 71
+    },
+    "E18-B": {
+        "name": "Womp Wizards",
+        "length": 19,
+        "width": 70
+    },
+    "E18-C": {
+        "name": "Dr. Rackwood & Friends",
+        "length": 31,
+        "width": 69
+    },
+    "E18-D": {
+        "name": "Camp Pandamonium",
+        "length": 61,
+        "width": 70
+    },
+    "E19-A": {
+        "name": "#notmycockring",
+        "length": 28,
+        "width": 70
+    },
+    "E19-B": {
+        "name": "BBB",
+        "length": 42,
+        "width": 70
+    },
+    "E19-C": {
+        "name": "BIKINI BOTTOMLESS",
+        "length": 24,
+        "width": 71
+    },
+    "E19-D": {
+        "name": "Behrens' Big Booty Bach",
+        "length": 31,
+        "width": 69
+    },
+    "E19-E": {
+        "name": "Martha Stewarts Wooking School",
+        "length": 25,
+        "width": 71
+    },
+    "E20-A": {
+        "name": "AVOSQUADO",
+        "length": 55,
+        "width": 70
+    },
+    "E20-B": {
+        "name": "Level 9 Silly Geese",
+        "length": 34,
+        "width": 71
+    },
+    "E20-C": {
+        "name": "Camp Kampington",
+        "length": 61,
+        "width": 70
+    },
+    "E21-A": {
+        "name": "Camp Slap the Bag",
+        "length": 55,
+        "width": 70
+    },
+    "E21-B": {
+        "name": "an escargatoire of snails",
+        "length": 25,
+        "width": 71
+    },
+    "E21-C": {
+        "name": "Duck Squad",
+        "length": 43,
+        "width": 70
+    },
+    "E21-D": {
+        "name": "Tree People",
+        "length": 27,
+        "width": 69
+    },
+    "E22-A": {
+        "name": "highly flavored",
+        "length": 31,
+        "width": 69
+    },
+    "E22-B": {
+        "name": "Big Daddy Purp and the Twerps",
+        "length": 47,
+        "width": 70
+    },
+    "E22-C": {
         "name": "wookies IYKYK",
+        "length": 27,
+        "width": 69
+    },
+    "E22-D": {
+        "name": "Camp Wurder",
+        "length": 46,
+        "width": 70
+    },
+    "E23-A": {
+        "name": "Camp Rabbit Hole ",
+        "length": 36,
+        "width": 69
+    },
+    "E23-B": {
+        "name": "Silly Geese Police",
+        "length": 25,
+        "width": 71
+    },
+    "E23-C": {
+        "name": "Shroomie Tunes",
+        "length": 25,
+        "width": 71
+    },
+    "E23-D": {
+        "name": "Electric Bogaloo",
+        "length": 38,
+        "width": 70
+    },
+    "E23-E": {
+        "name": "Panda Tribe",
+        "length": 25,
+        "width": 71
+    },
+    "E24-A": {
+        "name": "Space Camp",
+        "length": 32,
+        "width": 70
+    },
+    "E24-B": {
+        "name": "The Boof Cottage",
+        "length": 48,
+        "width": 71
+    },
+    "E24-C": {
+        "name": "Camp Hell Yeah",
+        "length": 39,
+        "width": 71
+    },
+    "E24-D": {
+        "name": "Ferals, Fiends, and Firgins",
+        "length": 31,
+        "width": 69
+    },
+    "E25-A": {
+        "name": "Hot n' Heady",
+        "length": 43,
+        "width": 70
+    },
+    "E25-B": {
+        "name": "Ride the Pony",
+        "length": 56,
+        "width": 70
+    },
+    "E25-C": {
+        "name": "The Hug House",
         "length": 51,
         "width": 70
     },
-    "E10-B": {
-        "name": "Camp Whippet Out",
-        "length": 100,
+    "E26-A": {
+        "name": "The Neigh Brigade",
+        "length": 71,
         "width": 70
+    },
+    "E26-B": {
+        "name": "Feral Chickens ",
+        "length": 31,
+        "width": 69
+    },
+    "E26-C": {
+        "name": "Kamp Kazoo",
+        "length": 48,
+        "width": 71
+    },
+    "E27-A": {
+        "name": "E4 Avenue",
+        "length": 36,
+        "width": 69
+    },
+    "E27-B": {
+        "name": "Mt. Ketaminjaro",
+        "length": 65,
+        "width": 70
+    },
+    "E27-C": {
+        "name": "The Floor People",
+        "length": 33,
+        "width": 70
+    },
+    "E27-D": {
+        "name": "gary zhao",
+        "length": 17,
+        "width": 68
+    },
+    "E28-A": {
+        "name": "Peacewaves",
+        "length": 46,
+        "width": 70
+    },
+    "E28-B": {
+        "name": "GOOD VIBE TRIBE",
+        "length": 67,
+        "width": 70
+    },
+    "E28-C": {
+        "name": "SL,UT CAMP",
+        "length": 37,
+        "width": 70
+    },
+    "E29-A": {
+        "name": "WE OUT HERE!",
+        "length": 60,
+        "width": 70
+    },
+    "E29-B": {
+        "name": "Camp Boofs 'n Cats",
+        "length": 47,
+        "width": 70
+    },
+    "E29-C": {
+        "name": "Womp Rats",
+        "length": 43,
+        "width": 70
+    },
+    "E30-A": {
+        "name": "Camp Wookery",
+        "length": 42,
+        "width": 70
+    },
+    "E30-B": {
+        "name": "Camp (K)yle",
+        "length": 37,
+        "width": 70
+    },
+    "E30-C": {
+        "name": "Don Juan Doobiers",
+        "length": 25,
+        "width": 71
+    },
+    "E30-D": {
+        "name": "Electric Pissers",
+        "length": 46,
+        "width": 70
+    },
+    "E31-A": {
+        "name": "Giggles N Jiggles",
+        "length": 62,
+        "width": 70
+    },
+    "E31-B": {
+        "name": "One Day Dipsters",
+        "length": 29,
+        "width": 71
+    },
+    "E31-C": {
+        "name": "Flamingos in the Forest",
+        "length": 59,
+        "width": 69
+    },
+    "E32-A": {
+        "name": "K-Hole Kauldron",
+        "length": 25,
+        "width": 71
+    },
+    "E32-B": {
+        "name": "Wook Wonderland",
+        "length": 36,
+        "width": 69
+    },
+    "E32-C": {
+        "name": "Midlife Hypeness",
+        "length": 62,
+        "width": 70
+    },
+    "E32-D": {
+        "name": "PIZZA PLANET",
+        "length": 27,
+        "width": 69
+    },
+    "E33-A": {
+        "name": "Camp Milk",
+        "length": 53,
+        "width": 71
+    },
+    "E33-B": {
+        "name": "FACEMELT FAM",
+        "length": 97,
+        "width": 70
+    },
+    "E34-A": {
+        "name": "Street Rat Gang",
+        "length": 31,
+        "width": 69
+    },
+    "E34-B": {
+        "name": "Boomin n' Goofin",
+        "length": 52,
+        "width": 70
+    },
+    "E34-C": {
+        "name": "Camp Kind Neighbors",
+        "length": 41,
+        "width": 70
+    },
+    "E34-D": {
+        "name": "Fabtastic Funkonaut's",
+        "length": 27,
+        "width": 69
+    },
+    "E35-A": {
+        "name": "P$$y Suckaz",
+        "length": 42,
+        "width": 70
+    },
+    "E35-B": {
+        "name": "Get Your Sh!t Together",
+        "length": 76,
+        "width": 70
+    },
+    "E35-C": {
+        "name": "BCD Rave Fam",
+        "length": 32,
+        "width": 70
+    },
+    "E36-A": {
+        "name": "Keta Kweens and Lentil Beans",
+        "length": 74,
+        "width": 70
+    },
+    "E36-B": {
+        "name": "Outtie Slayas",
+        "length": 34,
+        "width": 71
+    },
+    "E36-C": {
+        "name": "Cabbage Corp.",
+        "length": 42,
+        "width": 70
+    },
+    "E37-A": {
+        "name": "CAMP VIBE TRIBE",
+        "length": 52,
+        "width": 70
+    },
+    "E37-B": {
+        "name": "Squirt Squad",
+        "length": 31,
+        "width": 69
+    },
+    "E37-C": {
+        "name": "Pizza Gang",
+        "length": 31,
+        "width": 69
+    },
+    "E37-D": {
+        "name": "Bubba Wumps Horse Rescue and Sanctuary",
+        "length": 37,
+        "width": 70
+    },
+    "E38-A": {
+        "name": "Sesame Skeeet",
+        "length": 81,
+        "width": 70
+    },
+    "E38-B": {
+        "name": "Rave Fam Estates",
+        "length": 25,
+        "width": 71
+    },
+    "E38-C": {
+        "name": "Boofy Goobers",
+        "length": 43,
+        "width": 70
+    },
+    "E39-A": {
+        "name": "Bippity Boppity Boof",
+        "length": 99,
+        "width": 70
+    },
+    "E39-B": {
+        "name": "BOOF WELLINGTON",
+        "length": 51,
+        "width": 70
+    },
+    "E40-A": {
+        "name": "Kilos in the Jungle",
+        "length": 39,
+        "width": 71
+    },
+    "E40-B": {
+        "name": "Sloths United",
+        "length": 27,
+        "width": 69
+    },
+    "E40-C": {
+        "name": "The Re-Up Rascals",
+        "length": 36,
+        "width": 69
+    },
+    "E40-D": {
+        "name": "FraggleKroc",
+        "length": 48,
+        "width": 71
+    },
+    "E41-A": {
+        "name": "Mommy Milkers",
+        "length": 42,
+        "width": 70
+    },
+    "E41-B": {
+        "name": "Boofstreet Boys",
+        "length": 25,
+        "width": 71
+    },
+    "E41-C": {
+        "name": "Sproutin About",
+        "length": 83,
+        "width": 70
+    },
+    "E42-A": {
+        "name": "The Tab Lab",
+        "length": 43,
+        "width": 70
+    },
+    "E42-B": {
+        "name": "Cooked Wooks",
+        "length": 39,
+        "width": 71
+    },
+    "E42-C": {
+        "name": "Daddy Dicks Boof Emporium",
+        "length": 36,
+        "width": 69
+    },
+    "E42-D": {
+        "name": "Cynefin",
+        "length": 32,
+        "width": 70
+    },
+    "E43-A": {
+        "name": "Camp Sup Sau",
+        "length": 70,
+        "width": 70
+    },
+    "E43-B": {
+        "name": "Roll Modelz ",
+        "length": 41,
+        "width": 70
+    },
+    "E43-C": {
+        "name": "Boofa Troopas",
+        "length": 39,
+        "width": 71
+    },
+    "E44-A": {
+        "name": "Kevin Quillen",
+        "length": 60,
+        "width": 70
+    },
+    "E44-B": {
+        "name": "Hot liquor and warm shrimp",
+        "length": 29,
+        "width": 71
+    },
+    "E44-C": {
+        "name": "Camp: Somebody Pick A F*cking Name",
+        "length": 61,
+        "width": 70
+    },
+    "E45-A": {
+        "name": "Samuel Gomez",
+        "length": 31,
+        "width": 69
+    },
+    "E45-B": {
+        "name": "Shock Flock",
+        "length": 36,
+        "width": 69
+    },
+    "E45-C": {
+        "name": "Ghosts of Serotonins Past",
+        "length": 84,
+        "width": 70
+    },
+    "E46-A": {
+        "name": "Rave Boys and Girls Scouts of Rothbury",
+        "length": 62,
+        "width": 70
+    },
+    "E46-B": {
+        "name": "Camp Baby Kyle",
+        "length": 45,
+        "width": 69
+    },
+    "E46-C": {
+        "name": "Wooky Wonka and the Crackhead Factory",
+        "length": 43,
+        "width": 70
+    },
+    "E47-A": {
+        "name": "nature wh*res",
+        "length": 50,
+        "width": 70
+    },
+    "E47-B": {
+        "name": "Tortugas",
+        "length": 57,
+        "width": 70
+    },
+    "E47-C": {
+        "name": "William York",
+        "length": 43,
+        "width": 70
+    },
+    "E48-A": {
+        "name": "Todd's Marbles",
+        "length": 25,
+        "width": 71
+    },
+    "E48-B": {
+        "name": "Meet me at Griz",
+        "length": 37,
+        "width": 70
+    },
+    "E48-C": {
+        "name": "Bubble Gang",
+        "length": 36,
+        "width": 69
+    },
+    "E48-D": {
+        "name": "pArTy PeOpLe",
+        "length": 25,
+        "width": 71
+    },
+    "E48-E": {
+        "name": "Babe, do you have my molly?",
+        "length": 27,
+        "width": 69
+    },
+    "E49-A": {
+        "name": "KosmiK Brownies",
+        "length": 37,
+        "width": 70
+    },
+    "E49-B": {
+        "name": "Bojack does the Electric Slide",
+        "length": 47,
+        "width": 70
+    },
+    "E49-C": {
+        "name": "Kayuga",
+        "length": 29,
+        "width": 71
+    },
+    "E49-D": {
+        "name": "Dubsteppas",
+        "length": 37,
+        "width": 70
+    },
+    "E50-A": {
+        "name": "Grilled Cheese and B!tches",
+        "length": 59,
+        "width": 69
+    },
+    "E50-B": {
+        "name": "Camp Buttstuff",
+        "length": 25,
+        "width": 71
+    },
+    "E50-C": {
+        "name": "Colorado Love Company",
+        "length": 66,
+        "width": 70
+    },
+    "E51-A": {
+        "name": "Ethically Sourced Sluts",
+        "length": 43,
+        "width": 70
+    },
+    "E51-B": {
+        "name": "Banana Bois b2b Chedda Mommas",
+        "length": 106,
+        "width": 70
+    },
+    "E52-A": {
+        "name": "The Shadow People",
+        "length": 98,
+        "width": 70
+    },
+    "E52-B": {
+        "name": "Fun In The Sun",
+        "length": 52,
+        "width": 70
+    },
+    "E53-A": {
+        "name": "BuffaHOES",
+        "length": 27,
+        "width": 69
+    },
+    "E53-B": {
+        "name": "Camp No Training Wheelz",
+        "length": 41,
+        "width": 70
+    },
+    "E53-C": {
+        "name": "Biscuits and Ravey",
+        "length": 42,
+        "width": 70
+    },
+    "E53-D": {
+        "name": "Camp Weird",
+        "length": 39,
+        "width": 71
+    },
+    "E54-A": {
+        "name": "too broke for good life",
+        "length": 27,
+        "width": 69
+    },
+    "E54-B": {
+        "name": "The Boofenshmirtzs",
+        "length": 47,
+        "width": 70
+    },
+    "E54-C": {
+        "name": "House Hooligans & the Bass Brigade",
+        "length": 38,
+        "width": 70
+    },
+    "E54-D": {
+        "name": "Gremtown",
+        "length": 37,
+        "width": 70
+    },
+    "E55-A": {
+        "name": "Cabbage Pash Kids",
+        "length": 83,
+        "width": 70
+    },
+    "E55-B": {
+        "name": "Dr. Dres Dab Lab",
+        "length": 29,
+        "width": 71
+    },
+    "E55-C": {
+        "name": "Disco Ducks",
+        "length": 38,
+        "width": 70
+    },
+    "E56-A": {
+        "name": "Moon Jellies",
+        "length": 48,
+        "width": 71
+    },
+    "E56-B": {
+        "name": "Yeet Street",
+        "length": 102,
+        "width": 70
+    },
+    "E57-A": {
+        "name": "Camp Greendale",
+        "length": 27,
+        "width": 69
+    },
+    "E57-B": {
+        "name": "Forest Fish :)",
+        "length": 27,
+        "width": 69
+    },
+    "E57-C": {
+        "name": "Horsesmiths Village",
+        "length": 31,
+        "width": 69
+    },
+    "E57-D": {
+        "name": "joy aberg",
+        "length": 33,
+        "width": 70
+    },
+    "E57-E": {
+        "name": "Pashmina Spaceship",
+        "length": 33,
+        "width": 70
+    },
+    "E58-A": {
+        "name": "Camp Prison",
+        "length": 32,
+        "width": 70
+    },
+    "E58-B": {
+        "name": "K is for Koala",
+        "length": 52,
+        "width": 70
+    },
+    "E58-C": {
+        "name": "The Mushroom Kingdom",
+        "length": 33,
+        "width": 70
+    },
+    "E58-D": {
+        "name": "HornyHours",
+        "length": 33,
+        "width": 70
+    },
+    "E59-A": {
+        "name": "the entire bee movie script",
+        "length": 71,
+        "width": 70
+    },
+    "E59-B": {
+        "name": "ICT Rave Crew EF",
+        "length": 36,
+        "width": 69
+    },
+    "E59-C": {
+        "name": "Deems Kingdom",
+        "length": 43,
+        "width": 70
+    },
+    "E60-A": {
+        "name": "The Forest Dwellers",
+        "length": 36,
+        "width": 69
+    },
+    "E60-B": {
+        "name": "The Degen Justice League",
+        "length": 28,
+        "width": 70
+    },
+    "E60-C": {
+        "name": "Nicholas Pogrebneak",
+        "length": 60,
+        "width": 70
+    },
+    "E60-D": {
+        "name": "CAMP NANNERS",
+        "length": 25,
+        "width": 71
+    },
+    "E61-A": {
+        "name": "Coreys Belly Slappers",
+        "length": 37,
+        "width": 70
+    },
+    "E61-B": {
+        "name": "Sauce Squad",
+        "length": 46,
+        "width": 70
+    },
+    "E61-C": {
+        "name": "Peace, Love and Wubs",
+        "length": 36,
+        "width": 69
+    },
+    "E61-D": {
+        "name": "Bills Mafia",
+        "length": 31,
+        "width": 69
+    },
+    "E62-A": {
+        "name": "LOSTINTHEWOODSH3",
+        "length": 39,
+        "width": 71
+    },
+    "E62-B": {
+        "name": "Camp Tittysprinkles",
+        "length": 51,
+        "width": 70
+    },
+    "E62-C": {
+        "name": "Fabulous Flock of the Forest",
+        "length": 59,
+        "width": 69
+    },
+    "E63-A": {
+        "name": "In Crust We Trust",
+        "length": 41,
+        "width": 70
+    },
+    "E63-B": {
+        "name": "Vibe Check",
+        "length": 50,
+        "width": 70
+    },
+    "E63-C": {
+        "name": "ANTHONY Sayenko",
+        "length": 29,
+        "width": 71
+    },
+    "E63-D": {
+        "name": "Bikini Bottom B00ty Blasters",
+        "length": 31,
+        "width": 69
+    },
+    "E64-A": {
+        "name": "PeRF in the Mush-Room",
+        "length": 60,
+        "width": 70
+    },
+    "E64-B": {
+        "name": "Wookakke",
+        "length": 89,
+        "width": 70
+    },
+    "E65-A": {
+        "name": "Camp Cern Derg",
+        "length": 62,
+        "width": 70
+    },
+    "E65-B": {
+        "name": "Products of D.A.R.E.",
+        "length": 61,
+        "width": 70
+    },
+    "E65-C": {
+        "name": "Swamp Squad",
+        "length": 27,
+        "width": 69
+    },
+    "E66-A": {
+        "name": "No Very Poor Avatars",
+        "length": 38,
+        "width": 70
+    },
+    "E66-B": {
+        "name": "Gangsta's Paradise",
+        "length": 64,
+        "width": 70
+    },
+    "E66-C": {
+        "name": "The Marvelous Misfits",
+        "length": 47,
+        "width": 70
+    },
+    "E67-A": {
+        "name": "YEET ME THROUGH SPACE",
+        "length": 37,
+        "width": 70
+    },
+    "E67-B": {
+        "name": "Daddy Den",
+        "length": 37,
+        "width": 70
+    },
+    "E67-C": {
+        "name": "Camp Build A Wook",
+        "length": 45,
+        "width": 69
+    },
+    "E67-D": {
+        "name": "Camp Get Weird",
+        "length": 32,
+        "width": 70
+    },
+    "E68-A": {
+        "name": "CAMP TRASH PANDA",
+        "length": 99,
+        "width": 70
+    },
+    "E68-B": {
+        "name": "Drury Lane",
+        "length": 50,
+        "width": 70
+    },
+    "E69-A": {
+        "name": "Employees of the Month",
+        "length": 42,
+        "width": 70
+    },
+    "E69-B": {
+        "name": "EternalVibeTribe",
+        "length": 97,
+        "width": 70
+    },
+    "E70-A": {
+        "name": "The Dancing Lobsters",
+        "length": 41,
+        "width": 70
+    },
+    "E70-B": {
+        "name": "F@#$ YOU I'M A WIZARD",
+        "length": 94,
+        "width": 70
+    },
+    "E70-C": {
+        "name": "Big Beef Bouillon",
+        "length": 25,
+        "width": 71
     }
 }

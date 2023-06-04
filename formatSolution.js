@@ -143,7 +143,7 @@ async function writeSolution() {
       "\n";
   }
 
-  await fs.appendFile("formatedSolution.csv", data, (err) => {
+  await fs.writeFile("formatedSolution.csv", data, (err) => {
     if (err) throw err;
   });
 }
