@@ -170,7 +170,7 @@ class CampSorter:
         headers = "Section, Solutions, Differences (ft2), Camping Leaders, Camping Lengths"
         f.write(headers+"\n")
 
-        for i in range(len(self.sectionSolutions)//2):
+        for i in range(len(self.sectionSolutions)):
             f.write(self.sectionsSortedNames[i]+","+str(self.sectionSolutions[i]).replace(",","|")+","+str(self.dif[i])+","+str(self.campsSolutions[i]).replace(",","|")+","+str(self.campLengthsSolutions[i]).replace(",","|")+"\n")
         f.close()
 

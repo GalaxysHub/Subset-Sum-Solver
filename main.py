@@ -21,7 +21,7 @@ def writeJsonSolution(solution):
 def run():
 
     camp_section_dict = {
-        'InputData/EF2023 - Small Camp Sections (1).csv':'InputData/EF2023 - Camp Groups.csv',
+        'InputData/EF2023 - Small Camp Sections.csv':'InputData/EF2023 - Small Camp Groups.csv',
         # 'InputData/EF2023 - Camp Sections.csv':'InputData/EF2023 - Camp Groups.csv',
         # 'InputData/EF2023 - Large Camp Sections.csv':'InputData/EF2023 - Large Camp Groups.csv',
         # 'InputData/EF2023 - Small Camp Sections.csv':'InputData/EF2023 - Small Camp Groups.csv',
