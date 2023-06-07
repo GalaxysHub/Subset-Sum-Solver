@@ -21,11 +21,11 @@ def writeJsonSolution(solution):
 def run():
 
     camp_section_dict = {
-        'InputData/EF2023 - Small Camp Sections.csv':'InputData/EF2023 - Small Camp Groups.csv',
+        # 'InputData/EF2023 - Small Camp Sections.csv':'InputData/EF2023 - Small Camp Groups.csv',
         # 'InputData/EF2023 - Camp Sections.csv':'InputData/EF2023 - Camp Groups.csv',
         # 'InputData/EF2023 - Large Camp Sections.csv':'InputData/EF2023 - Large Camp Groups.csv',
         # 'InputData/EF2023 - Small Camp Sections.csv':'InputData/EF2023 - Small Camp Groups.csv',
-        # 'InputData/EF2023 - Activities Camp Sections.csv':'InputData/EF2023 - Activities Camp Groups.csv',
+        'InputData/EF2023 - Activities Camp Sections.csv':'InputData/EF2023 - Activities Camp Groups.csv',
     }
 
     for camp_section, group_camps in camp_section_dict.items():
@@ -57,6 +57,9 @@ def run():
                 print("The best spread has been updated to "+str(bestSpread))
 
         print(bestSolution.printFullSolution())
+
+        #todo: combine solutions from different inputs
+
         writeJsonSolution(bestSolution)
 
 
