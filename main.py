@@ -1,5 +1,6 @@
 from helpers.SubsetSumSolver import CampSorter
 from helpers.formatInput import FormatInputData
+# import helpers.specialCases
 
 import json
 
@@ -23,26 +24,28 @@ def run():
     camp_section_dict = {
         # 'InputData/EF2023 - Small Camp Sections.csv':'InputData/EF2023 - Small Camp Groups.csv',
         # 'InputData/EF2023 - Camp Sections.csv':'InputData/EF2023 - Camp Groups.csv',
-        # 'InputData/EF2023 - Large Camp Sections.csv':'InputData/EF2023 - Large Camp Groups.csv',
-        # 'InputData/EF2023 - Small Camp Sections.csv':'InputData/EF2023 - Small Camp Groups.csv',
-        'InputData/EF2023 - Activities Camp Sections.csv':'InputData/EF2023 - Activities Camp Groups.csv',
+        # 'InputData/EF2023 - ADA Sections.csv':'InputData/EF2023 - ADA.csv',
+        'InputData/EF2023 - Close Sections.csv':'InputData/EF2023 - Close.csv',
+        # 'InputData/EF2023 - Activities Camp Sections.csv':'InputData/EF2023 - Activities Camp Groups.csv',
     }
 
     for camp_section, group_camps in camp_section_dict.items():
-        numSolToGen = 7
+        numSolToGen = 10
         bestSolution = None
         bestSpread = None
         firstTime = True
 
         maxIter = 10000
-        inc = 15
-        initBounds = 15
+        inc = 5
+        initBounds = 0
         trysPerSect = 50
 
         formatter = FormatInputData(camp_section, group_camps)
         formatter.formatInput()
         inputData = formatter.getFormattedInput()
         #Generates all solutions and picks best one
+
+        # helpers.specialCases()
         for i in range(0,numSolToGen,1):
             print("\nSolving solution "+str(i+1)+" of "+str(numSolToGen))
             solution = CampSorter(maxIter,inc,initBounds,trysPerSect,inputData)

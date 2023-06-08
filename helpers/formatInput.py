@@ -36,7 +36,7 @@ class FormatInputData:
                 for row in reader:
                     print(row)
                     self.totalPeople += int(row["Size"])
-                    groupName = row['Group Name']
+                    groupName = row['Camp Key']
                     printable = set(string.printable)
                     groupName = ''.join(filter(lambda x: x in printable, groupName))
                     Camps[groupName] = int(row['Size'])

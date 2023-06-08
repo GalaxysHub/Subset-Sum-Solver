@@ -1,25 +1,23 @@
-Size,Group Name,Camp Key,Position
-76,FACEMELT FAM,Camp9,Activation
-52,Electric Sofa,Camp30,Activation
-49,I smell Socks & Kandi,Camp36,Activation
-46,Grilled Cheese and B!tches,Camp51,Activation
-44,Ride the Pony,Camp53,Activation
-40,The Hug House,Camp69,Activation
-39,Vibe Check,Camp72,Activation
-38,FraggleKroc,Camp73,Activation
-36,Electric Pissers,Camp87,Activation
-35,E4 Avenue,Camp93,Activation
-34,Biscuits and Ravey,Camp95,Activation
-34,Camp Build A Wook,Camp98,Activation
-32,Church Of Tracy,Camp114,Activation
-30,LOSTINTHEWOODSH3,Camp130,Activation
-29,Camp (K)yle,Camp135,Activation
-27,Are you a real fan?,Camp156,Activation
-24,Camp Feel My Face,Camp179,Activation
-24,Feral Buellers’ Days Off,Camp182,Activation
-20,Camp Buttstuff,Camp222,Activation
-42,Chain Gang,Camp59,"Activation, Close to Boomin n Goofin"
-23,Lost + Found Forest Fairies,Camp196,"Activation, Close to: Babe, do you have my molly?"
-24,highly flavored,Camp185,"Activation, Close to: Behrens big booty Bach"
-37,Cheeky Squeaky Squad,Camp82,"Activation, Close to: Ghost of Serotonin's Past"
-25,Scholastic Wook Fair,Camp175,"Activation, Close to: KETAMINE KOWGURLS"
+Size,Group Name,Camp Key,Position,Sub Total, Area
+49,I smell Socks & Kandi,Camp36,Activation,177,29559
+46,Grilled Cheese and B!tches,Camp49,Activation,223,37241
+44,Ride the Pony,Camp54,Activation,267,44589
+42,Chain Gang,Camp59,"Activation, Close to Boomin n Goofin",309,51603
+40,The Hug House,Camp69,Activation,349,58283
+39,Vibe Check,Camp70,Activation,388,64796
+38,FraggleKroc,Camp75,Activation,426,71142
+37,Cheeky Squeaky Squad,Camp82,"Activation, Close to: Ghost of Serotonin's Past",463,77321
+36,Electric Pissers,Camp91,Activation,499,83333
+35,E4 Avenue,Camp94,Activation,534,89178
+34,Biscuits and Ravey,Camp103,Activation,568,94856
+34,Camp Build A Wook,Camp98,Activation,602,100534
+32,Church Of Tracy,Camp117,Activation,634,105878
+30,LOSTINTHEWOODSH3,Camp130,Activation,664,110888
+29,Camp (K)yle,Camp137,Activation,693,115731
+27,Are you a real fan?,Camp159,Activation,720,120240
+25,Scholastic Wook Fair,Camp170,"Activation, Close to: KETAMINE KOWGURLS",745,124415
+24,Camp Feel My Face,Camp179,Activation,769,128423
+24,Feral Buellers’ Days Off,Camp185,Activation,793,132431
+24,highly flavored,Camp178,"Activation, Close to: Behrens big booty Bach",817,136439
+23,Lost + Found Forest Fairies,Camp193,"Activation, Close to: Babe, do you have my molly?",840,140280
+20,Camp Buttstuff,Camp236,Activation,860,143620
