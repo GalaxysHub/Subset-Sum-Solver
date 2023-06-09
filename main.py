@@ -1,6 +1,6 @@
 from helpers.SubsetSumSolver import CampSorter
 from helpers.formatInput import FormatInputData
-# import helpers.specialCases
+from helpers.specialCases import specialCases, reAddSpecialCases
 
 import json
 
@@ -23,9 +23,9 @@ def run():
 
     camp_section_dict = {
         # 'InputData/EF2023 - Small Camp Sections.csv':'InputData/EF2023 - Small Camp Groups.csv',
-        # 'InputData/EF2023 - Camp Sections.csv':'InputData/EF2023 - Camp Groups.csv',
+        'InputData/EF2023 - Camp Sections.csv':'InputData/EF2023 - Camp Groups.csv',
         # 'InputData/EF2023 - ADA Sections.csv':'InputData/EF2023 - ADA.csv',
-        'InputData/EF2023 - Close Sections.csv':'InputData/EF2023 - Close.csv',
+        # 'InputData/EF2023 - Close Sections.csv':'InputData/EF2023 - Close.csv',11
         # 'InputData/EF2023 - Activities Camp Sections.csv':'InputData/EF2023 - Activities Camp Groups.csv',
     }
 
@@ -43,9 +43,10 @@ def run():
         formatter = FormatInputData(camp_section, group_camps)
         formatter.formatInput()
         inputData = formatter.getFormattedInput()
-        #Generates all solutions and picks best one
 
-        # helpers.specialCases()
+        inputData = specialCases(inputData)
+
+        #Generates all solutions and picks best one
         for i in range(0,numSolToGen,1):
             print("\nSolving solution "+str(i+1)+" of "+str(numSolToGen))
             solution = CampSorter(maxIter,inc,initBounds,trysPerSect,inputData)
@@ -61,9 +62,11 @@ def run():
 
         print(bestSolution.printFullSolution())
 
-        #todo: combine solutions from different inputs
+        fullSolution = reAddSpecialCases(bestSolution, inputData["OmittedCamps"])
+        with open("solution.json", "w") as outfile:
+            json.dump(fullSolution, outfile)
 
-        writeJsonSolution(bestSolution)
+        # writeJsonSolution(fullSolution)
 
 
 run()
