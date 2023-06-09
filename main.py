@@ -30,7 +30,7 @@ def run():
     }
 
     for camp_section, group_camps in camp_section_dict.items():
-        numSolToGen = 10
+        numSolToGen = 20
         bestSolution = None
         bestSpread = None
         firstTime = True
