@@ -48,7 +48,7 @@ A7,101,Camp Buttstuff,Camp236,20,
 A7,100,Ride the Pony,Camp54,44,
 A7,100,Cheeky Squeaky Squad,Camp82,37,"Activation, Close to: Ghost of Serotonin's Past"
 A8,100,P$$y Suckaz,Camp105,33,Close to: Camp magic conch (in ADA)
-A8,100,"Babe, do you have my molly?",Camp211,21,
+A5,100,"Babe, do you have my molly?",Camp211,21,
 A8,100,PEGASUS NOVA 6,Camp220,20,ADA close to 
 A8,100,Keta Kweens and Lentil Beans,Camp23,58,
 A8,100,K is for Koala,Camp65,41,"Close to: Keta Kweens, Lentil Beans, PEGASUS NOVA 6 (ADA)"
@@ -65,7 +65,7 @@ B11,100,Coochie Corral Boofs Peepy,Camp121,31,
 B11,101,Camp Rabbit Hole,Camp147,28,
 B11,100,The Floor People,Camp163,26,
 B11,101,Tree People,Camp206,21,
-D2,100,Sesame Skeeet,Camp20,64,Far from RVs
+B21,100,Sesame Skeeet,Camp20,64,Far from RVs
 B14,100,Camp Pandamonium,Camp41,48,Away from RVs
 B13,100,Womp Rats,Camp96,34,Away from RVs
 B13,100,One Day Dipsters,Camp195,23,Far from RVs
@@ -73,6 +73,6 @@ B6,100,Electric Sofa,Camp30,52,Activities Overflow
 B7,100,FACEMELT FAM,Camp9,76,Activities Overflow
 C1,150,the entire bee movie script,Camp24,56,
 C1,150,Yeet Street,Camp7,78,Close to: the entire bee movie script
-D2,150,Boofstreet Boys,Camp232,20,Far from mainstreet
+B22,100,Boofstreet Boys,Camp232,20,Far from mainstreet
 E1,70,Sexy Rave Mofos,Camp145,28,Near RVs
 E2,70,PeRF in the Mush-Room,Camp48,47,Near RVs
